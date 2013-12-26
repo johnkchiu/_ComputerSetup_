@@ -16,6 +16,7 @@
 * Dropbox
 * Evernote
 * Google Chrome
+	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
 * Google Drive
 * KeePass 1.X
 
@@ -29,6 +30,7 @@
 ## Windows
 * Notepad++ (Portable)
 * WinMerge
+* Zeal - http://zealdocs.org
 
 ## Mac
 * Mou - http://mouapp.com
