@@ -40,12 +40,14 @@
 	* Android SDK - http://developer.android.com/sdk/index.html#download
 	* Android Studio - https://developer.android.com/sdk/installing/studio.html
 	* Kindle Fire Device - https://developer.amazon.com/public/resources/development-tools/ide-tools/tech-docs/01-setting-up-your-development-environment#Installing the Android SDK and Eclipse IDE
+* iOS
+	* iPhone Configuration Utility - http://support.apple.com/downloads/#iphone configuration utility
 * GitHub - http://mac.github.com/ http://windows.github.com
 * JetBrains WebStorm
 * P4Merge - http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools
 * SourceTree
 * Sublime Text 3.X - http://www.sublimetext.com/3 (Portable)
-	* Package Control - https://sublime.wbond.net
+	* Package Control - https://sublime.wbond.net/installation
 	* Pretty JSON - https://sublime.wbond.net/packages/Pretty%20JSON
 	* Markdown Preview - https://sublime.wbond.net/packages/Markdown%20Preview
 	* Indent XML - https://sublime.wbond.net/packages/Indent%20XML
