@@ -11,6 +11,7 @@
 * Launchy - http://www.launchy.net (Portable)
 
 ## Mac
+* KeyRemap4MacBook - https://pqrs.org/macosx/keyremap4macbook/
 
 ## Windows + Mac
 * Dropbox
