@@ -8,9 +8,11 @@
 * Console - http://sourceforge.net/projects/console (Portable)
 * Greenshot
 * John's Background Switcher - http://johnsadventures.com/software/backgroundswitcher
+* KeePass 1.X - http://keepass.info/download.html (Portable)
 * Launchy - http://www.launchy.net (Portable)
 
 ## Mac
+* KeePassX - http://www.keepassx.org/downloads
 * KeyRemap4MacBook - https://pqrs.org/macosx/keyremap4macbook/
 
 ## Windows + Mac
@@ -20,18 +22,17 @@
 	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
 	* Chrome App Launcher - https://chrome.google.com/webstore/launcher
 	* Switch Back to Tab Page - http://blogs.computerworld.com/internet/22878/chrome-new-tab-page
-* Google Drive
-* KeePass 1.X
-* Skype
-* Synergy - http://synergy-foss.org/download
-* Transmission Remote GUI
+* Google Drive - http://www.google.com/drive
 * Picasa
+* Skype - http://www.skype.com/en/download-skype/
+* Synergy - http://synergy-foss.org/download
+* Transmission Remote GUI - https://code.google.com/p/transmisson-remote-gui/
 
 # Development Tools
 
 ## Windows
-* Notepad++ (Portable)
-* WinMerge
+* Notepad++ - (Portable)
+* WinMerge - 
 * Zeal - http://zealdocs.org
 
 ## Mac
