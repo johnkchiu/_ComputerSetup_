@@ -18,10 +18,12 @@
 * Evernote
 * Google Chrome
 	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
+	* Chrome App Launcher - https://chrome.google.com/webstore/launcher
+	* Switch Back to Tab Page - http://blogs.computerworld.com/internet/22878/chrome-new-tab-page
 * Google Drive
 * KeePass 1.X
 * Skype
-* Synergy
+* Synergy - http://synergy-foss.org/download
 * Transmission Remote GUI
 * Picasa
 
