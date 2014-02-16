@@ -4,6 +4,8 @@
 * 7-Zip - http://www.7-zip.org
 * AutoHotkey - http://www.autohotkey.com
 * Cygwin - http://cygwin.com
+	* openssh
+	* git
 * ConEmu - http://sourceforge.net/projects/conemu (Portable)
 * Console - http://sourceforge.net/projects/console (Portable)
 * Greenshot
