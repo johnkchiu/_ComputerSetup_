@@ -55,8 +55,10 @@
 	* Pretty JSON - https://sublime.wbond.net/packages/Pretty%20JSON
 	* Markdown Preview - https://sublime.wbond.net/packages/Markdown%20Preview
 	* Indent XML - https://sublime.wbond.net/packages/Indent%20XML
-* Eclipse
+* Eclipse - https://www.eclipse.org/downloads/
 	* eclipse-ui-theme - https://github.com/guari/eclipse-ui-theme
 	* Eclipse Color Theme - http://eclipsecolorthemes.org
+	* MoreUnit - http://moreunit.sourceforge.net
+	* EclEmma - http://www.eclemma.org
 * Node.js 
 * Python
