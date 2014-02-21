@@ -23,7 +23,6 @@
 * Google Chrome
 	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
 	* Chrome App Launcher - https://chrome.google.com/webstore/launcher
-	* Switch Back to Tab Page - http://blogs.computerworld.com/internet/22878/chrome-new-tab-page
 * Google Drive - http://www.google.com/drive
 * Picasa
 * Skype - http://www.skype.com/en/download-skype/
