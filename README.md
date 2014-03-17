@@ -39,8 +39,10 @@
 * Zeal - http://zealdocs.org
 
 ## Mac
+* Dash - (App Store)
 * Mou - http://mouapp.com
 * iTerm2 - http://www.iterm2.com/#/section/downloads
+	* iterm2-color-schemes - http://iterm2colorschemes.com/
 
 ## Windows + Mac
 * Android
@@ -52,7 +54,7 @@
 * GitHub - http://mac.github.com/ http://windows.github.com
 * JetBrains WebStorm
 * P4Merge - http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools
-* SourceTree
+* SourceTree - http://www.sourcetreeapp.com/
 * Sublime Text 3.X - http://www.sublimetext.com/3 (Portable)
 	* Package Control - https://sublime.wbond.net/installation
 	* Pretty JSON - https://sublime.wbond.net/packages/Pretty%20JSON
