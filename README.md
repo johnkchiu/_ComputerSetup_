@@ -16,11 +16,13 @@
 ## Mac
 * KeePassX - http://www.keepassx.org/downloads
 * KeyRemap4MacBook - https://pqrs.org/macosx/keyremap4macbook/
+* Quicksilver - http://qsapp.com/download.php
+* BetterTouchTool - http://www.boastr.net/
 
 ## Windows + Mac
 * Dropbox
 * Evernote
-* Google Chrome
+* Google Chrome - http://www.google.com/chrome/
 	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
 	* Chrome App Launcher - https://chrome.google.com/webstore/launcher
 * Google Drive - http://www.google.com/drive
@@ -38,6 +40,7 @@
 
 ## Mac
 * Mou - http://mouapp.com
+* iTerm2 - http://www.iterm2.com/#/section/downloads
 
 ## Windows + Mac
 * Android
