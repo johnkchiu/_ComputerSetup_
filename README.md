@@ -15,18 +15,17 @@
 
 ## Mac
 * KeePassX - http://www.keepassx.org/downloads
-* KeyRemap4MacBook - https://pqrs.org/macosx/keyremap4macbook/
-* Quicksilver - http://qsapp.com/download.php
+* Karabiner - https://pqrs.org/osx/karabiner/
 * BetterTouchTool - http://www.boastr.net/
 
 ## Windows + Mac
-* Dropbox
-* Evernote
+* Dropbox - https://www.dropbox.com/
+* Evernote - *AppStore*
 * Google Chrome - http://www.google.com/chrome/
 	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
 	* Chrome App Launcher - https://chrome.google.com/webstore/launcher
 * Google Drive - http://www.google.com/drive
-* Picasa
+* Picasa - http://picasa.google.com/
 * Skype - http://www.skype.com/en/download-skype/
 * Synergy - http://synergy-foss.org/download
 * Transmission Remote GUI - https://code.google.com/p/transmisson-remote-gui/
@@ -35,12 +34,11 @@
 
 ## Windows
 * Notepad++ - (Portable)
-* WinMerge - 
+* WinMerge -
 * Zeal - http://zealdocs.org
 
 ## Mac
-* Dash - (App Store)
-* Mou - http://mouapp.com
+* Dash - *AppStore*
 * iTerm2 - http://www.iterm2.com/#/section/downloads
 	* iterm2-color-schemes - http://iterm2colorschemes.com/
 
@@ -49,6 +47,7 @@
 	* Android SDK - http://developer.android.com/sdk/index.html#download
 	* Android Studio - https://developer.android.com/sdk/installing/studio.html
 	* Kindle Fire Device - https://developer.amazon.com/public/resources/development-tools/ide-tools/tech-docs/01-setting-up-your-development-environment#Installing the Android SDK and Eclipse IDE
+* Atom - https://atom.io
 * iOS
 	* iPhone Configuration Utility - http://support.apple.com/downloads/#iphone configuration utility
 * GitHub - http://mac.github.com/ http://windows.github.com
@@ -65,5 +64,6 @@
 	* Eclipse Color Theme - http://eclipsecolorthemes.org
 	* MoreUnit - http://moreunit.sourceforge.net
 	* EclEmma - http://www.eclemma.org
-* Node.js 
+* Node.js
 * Python
+* Visual Studio Code - https://code.visualstudio.com
