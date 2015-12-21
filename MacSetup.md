@@ -11,6 +11,14 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install zsh zsh-completions
 # oh-my-zsh - http://ohmyz.sh/
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+## node.js / npm / nvm
+```shell
+# install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+# install latest node.js
+nvm install node
 
 ```
 
@@ -25,6 +33,4 @@ ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 # show hiddent files
 defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder
-
-
 ```
