@@ -19,13 +19,15 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 # install latest node.js
 nvm install node
-
 ```
 
 ## Application Setup
 ```shell
 # atom commandline
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
+
+# sublime commandline
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
 ## Environment Setup

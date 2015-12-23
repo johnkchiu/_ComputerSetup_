@@ -38,9 +38,11 @@
 * Zeal - http://zealdocs.org
 
 ## Mac
+* AppCleaner - http://freemacsoft.net/appcleaner/
 * Dash - *AppStore*
 * iTerm2 - http://www.iterm2.com/#/section/downloads
 	* iterm2-color-schemes - http://iterm2colorschemes.com/
+* Sublime 3 - http://www.sublimetext.com/3
 
 ## Windows + Mac
 * Android
@@ -48,6 +50,7 @@
 	* Android Studio - https://developer.android.com/sdk/installing/studio.html
 	* Kindle Fire Device - https://developer.amazon.com/public/resources/development-tools/ide-tools/tech-docs/01-setting-up-your-development-environment#Installing the Android SDK and Eclipse IDE
 * Atom - https://atom.io
+	* https://atom.io/packages/editorconfig
 * iOS
 	* iPhone Configuration Utility - http://support.apple.com/downloads/#iphone configuration utility
 * GitHub - http://mac.github.com/ http://windows.github.com
