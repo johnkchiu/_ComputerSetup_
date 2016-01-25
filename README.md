@@ -1,4 +1,16 @@
-# Desktop Applications + Utilities
+# Desktop Applications + Utilities + Development Tools
+
+## Mac
+* AppCleaner - http://freemacsoft.net/appcleaner
+* BetterTouchTool - http://www.boastr.net/
+* Dash - https://kapeli.com/dash
+* iTerm2 - http://www.iterm2.com/#/section/downloads
+	* iterm2-color-schemes - http://iterm2colorschemes.com
+* Karabiner - https://pqrs.org/osx/karabiner
+* KeePassX - http://www.keepassx.org/downloads
+* Sublime 3 - http://www.sublimetext.com/3
+
+> [Additional setup instructions.](MacSetup.md)
 
 ## Windows
 * 7-Zip - http://www.7-zip.org
@@ -9,50 +21,34 @@
 * ConEmu - http://sourceforge.net/projects/conemu (Portable)
 * Console - http://sourceforge.net/projects/console (Portable)
 * Greenshot
-* John's Background Switcher - http://johnsadventures.com/software/backgroundswitcher
 * KeePass 1.X - http://keepass.info/download.html (Portable)
 * Launchy - http://www.launchy.net (Portable)
-
-## Mac
-* KeePassX - http://www.keepassx.org/downloads
-* Karabiner - https://pqrs.org/osx/karabiner/
-* BetterTouchTool - http://www.boastr.net/
-
-## Windows + Mac
-* Dropbox - https://www.dropbox.com/
-* Evernote - *AppStore*
-* Google Chrome - http://www.google.com/chrome/
-	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
-	* Chrome App Launcher - https://chrome.google.com/webstore/launcher
-* Google Drive - http://www.google.com/drive
-* Picasa - http://picasa.google.com/
-* Skype - http://www.skype.com/en/download-skype/
-* Synergy - http://synergy-foss.org/download
-* Transmission Remote GUI - https://code.google.com/p/transmisson-remote-gui/
-
-# Development Tools
-
-## Windows
 * Notepad++ - (Portable)
 * WinMerge -
 * Zeal - http://zealdocs.org
 
-## Mac
-* AppCleaner - http://freemacsoft.net/appcleaner/
-* Dash - *AppStore*
-* iTerm2 - http://www.iterm2.com/#/section/downloads
-	* iterm2-color-schemes - http://iterm2colorschemes.com/
-* Sublime 3 - http://www.sublimetext.com/3
-
 ## Windows + Mac
+* Dropbox - https://www.dropbox.com
+* Evernote - *AppStore*
+* Google Chrome - http://www.google.com/chrome
+	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
+	* Chrome App Launcher - https://chrome.google.com/webstore/launcher
+* Google Drive - http://www.google.com/drive
+* Picasa - http://picasa.google.com
+* Skype - http://www.skype.com/en/download-skype
+* Synergy - http://synergy-foss.org/download
+* Transmission Remote GUI - http://sourceforge.net/projects/transgui
 * Android
 	* Android SDK - http://developer.android.com/sdk/index.html#download
 	* Android Studio - https://developer.android.com/sdk/installing/studio.html
 	* Kindle Fire Device - https://developer.amazon.com/public/resources/development-tools/ide-tools/tech-docs/01-setting-up-your-development-environment#Installing the Android SDK and Eclipse IDE
 * Atom - https://atom.io
 	* https://atom.io/packages/editorconfig
-* iOS
-	* iPhone Configuration Utility - http://support.apple.com/downloads/#iphone configuration utility
+	* https://atom.io/packages/atom-beautify
+	* https://atom.io/packages/pretty-json
+	* https://atom.io/packages/highlight-selected
+	* https://atom.io/themes/seti-ui
+	* https://atom.io/themes/seti-syntax
 * GitHub - http://mac.github.com/ http://windows.github.com
 * JetBrains WebStorm
 * P4Merge - http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools

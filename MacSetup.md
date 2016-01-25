@@ -32,7 +32,7 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 
 ## Environment Setup
 ```shell
-# show hiddent files
+# show hidden files
 defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder
 ```
