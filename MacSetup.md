@@ -35,4 +35,7 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 # show hidden files
 defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder
+
+# Markdown Preview
+brew cask install qlmarkdown
 ```
