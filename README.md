@@ -34,6 +34,7 @@
 	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
 	* Chrome App Launcher - https://chrome.google.com/webstore/launcher
 * Google Drive - http://www.google.com/drive
+* Google Play Music Desktop Player - http://www.googleplaymusicdesktopplayer.com
 * Picasa - http://picasa.google.com
 * Skype - http://www.skype.com/en/download-skype
 * Synergy - http://synergy-foss.org/download
