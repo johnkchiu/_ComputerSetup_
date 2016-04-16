@@ -8,6 +8,7 @@
 	* iterm2-color-schemes - http://iterm2colorschemes.com
 * Karabiner - https://pqrs.org/osx/karabiner
 * KeePassX - http://www.keepassx.org/downloads
+* MONIT Widget - https://mmonit.com/monit/#widget
 * Sublime 3 - http://www.sublimetext.com/3
 
 > [Additional setup instructions.](MacSetup.md)
