@@ -36,6 +36,7 @@
 	* Chrome App Launcher - https://chrome.google.com/webstore/launcher
 * Google Drive - http://www.google.com/drive
 * Google Play Music Desktop Player - http://www.googleplaymusicdesktopplayer.com
+* LICEcap - http://www.cockos.com/licecap/
 * Picasa - http://picasa.google.com
 * Skype - http://www.skype.com/en/download-skype
 * Synergy - http://synergy-foss.org/download
