@@ -16,13 +16,9 @@
 ## Windows
 * 7-Zip - http://www.7-zip.org
 * AutoHotkey - http://www.autohotkey.com
-* Cygwin - http://cygwin.com
-	* openssh
-	* git
 * ConEmu - http://sourceforge.net/projects/conemu (Portable)
-* Console - http://sourceforge.net/projects/console (Portable)
 * Greenshot
-* KeePass 1.X - http://keepass.info/download.html (Portable)
+* KeePass 2.X - http://keepass.info/download.html (Portable)
 * Launchy - http://www.launchy.net (Portable)
 * Notepad++ - (Portable)
 * WinMerge -
@@ -33,7 +29,6 @@
 * Evernote - *AppStore*
 * Google Chrome - http://www.google.com/chrome
 	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
-	* Chrome App Launcher - https://chrome.google.com/webstore/launcher
 * Google Drive - http://www.google.com/drive
 * Google Play Music Desktop Player - http://www.googleplaymusicdesktopplayer.com
 * LICEcap - http://www.cockos.com/licecap/
