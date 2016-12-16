@@ -16,6 +16,7 @@
 ## Windows
 * 7-Zip - http://www.7-zip.org
 * AutoHotkey - http://www.autohotkey.com
+* Bash on Ubuntu - https://msdn.microsoft.com/commandline/wsl/install_guide
 * ConEmu - http://sourceforge.net/projects/conemu (Portable)
 * Greenshot
 * KeePass 2.X - http://keepass.info/download.html (Portable)
