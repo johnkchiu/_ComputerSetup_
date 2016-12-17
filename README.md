@@ -65,3 +65,4 @@
 * Node.js
 * Python
 * Visual Studio Code - https://code.visualstudio.com
+* WhatsaApp - https://www.whatsapp.com/download/
