@@ -11,25 +11,24 @@
 * MONIT Widget - https://mmonit.com/monit/#widget
 * Sublime 3 - http://www.sublimetext.com/3
 
-> [Additional setup instructions.](MacSetup.md)
+> [Additional setup instructions for Mac.](_MacSetup.md)
 
 ## Windows
 * 7-Zip - http://www.7-zip.org
-* AutoHotkey - http://www.autohotkey.com
 * Bash on Ubuntu - https://msdn.microsoft.com/commandline/wsl/install_guide
-* ConEmu - http://sourceforge.net/projects/conemu (Portable)
+* ConEmu - http://sourceforge.net/projects/conemu (Portable) (Google Drive)
 * Greenshot
-* KeePass 2.X - http://keepass.info/download.html (Portable)
-* Launchy - http://www.launchy.net (Portable)
+* KeePass 2.X - http://keepass.info/download.html (Portable) (Google Drive)
 * Notepad++ - (Portable)
 * WinMerge -
 * Zeal - http://zealdocs.org
+
+> [Additional setup instructions for Windows.](_WindowsSetup.md)
 
 ## Windows + Mac
 * Dropbox - https://www.dropbox.com
 * Evernote - *AppStore*
 * Google Chrome - http://www.google.com/chrome
-	* ZeroDarkMatrix Theme for Chrome - https://github.com/mauricecruz/chrome-devtools-zerodarkmatrix-theme
 * Google Drive - http://www.google.com/drive
 * Google Play Music Desktop Player - http://www.googleplaymusicdesktopplayer.com
 * LICEcap - http://www.cockos.com/licecap/
