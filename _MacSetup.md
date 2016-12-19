@@ -23,7 +23,15 @@ nvm install node
 
 ## p4merge
 ```shell
+# install p4merge
 brew install Caskroom/cask/p4merge
+# setup shell script
+echo $'#!/bin/sh\n/Applications/p4merge.app/Contents/Resources/launchp4merge $*' > /usr/local/bin/p4merge
+chmod +x '/usr/local/bin/p4merge'
+# setup git config
+git config --global merge.tool p4merge
+git config --global mergetool.keepTemporaries false
+git config --global mergetool.prompt false
 ```
 
 ## Application Setup
