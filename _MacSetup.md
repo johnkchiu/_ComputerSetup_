@@ -21,6 +21,11 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | b
 nvm install node
 ```
 
+## p4merge
+```shell
+brew install Caskroom/cask/p4merge
+```
+
 ## Application Setup
 ```shell
 # atom commandline
