@@ -21,6 +21,11 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | b
 nvm install node
 ```
 
+## yarn
+```shell
+brew install yarn
+```
+
 ## p4merge
 ```shell
 # install p4merge
