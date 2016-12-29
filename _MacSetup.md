@@ -39,6 +39,12 @@ git config --global mergetool.keepTemporaries false
 git config --global mergetool.prompt false
 ```
 
+## Ariel Screen Screensaver
+```shell
+# https://github.com/JohnCoates/Aerial
+brew cask install aerial
+```
+
 ## Application Setup
 ```shell
 # atom commandline
