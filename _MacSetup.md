@@ -11,6 +11,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install zsh zsh-completions
 # oh-my-zsh - http://ohmyz.sh/
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# antigen
+curl -L git.io/antigen > .antigen.zsh
 ```
 
 ## node.js / npm / nvm
@@ -24,6 +26,24 @@ nvm install node
 ## yarn
 ```shell
 brew install yarn
+```
+
+## rbenv / ruby / rails
+```shell
+# install rbenv
+brew install rbenv
+rbenv init
+# ruby should be installed
+# install rails
+gem install rails
+rbenv rehash
+```
+
+## mysql
+```shell
+brew install mysql
+# mysql.server start
+# mysql.server stop
 ```
 
 ## p4merge
