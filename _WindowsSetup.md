@@ -19,7 +19,7 @@ choco install git
 sudo apt-get install git
 ```
 
-## zsh + oh-my-zsh
+## zsh + oh-my-zsh + antigen
 ```shell
 # zsh
 sudo apt-get install zsh
@@ -33,6 +33,9 @@ vi ~/.bashrc
 # -------------------------
 # oh-my-zsh - http://ohmyz.sh/
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# antigen
+curl -L git.io/antigen > .antigen.zsh
+# Setup .zshrc, .antigenrc, .personal, etc
 ```
 
 ## node.js / npm / nvm
