@@ -23,6 +23,16 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | b
 nvm install node
 ```
 
+
+## react-native
+```shell
+# install node (see above)
+# install watchman
+brew install watchman
+# install reative-native-cli
+npm install -g react-native-cli
+```
+
 ## yarn
 ```shell
 brew install yarn
@@ -37,6 +47,15 @@ rbenv init
 # install rails
 gem install rails
 rbenv rehash
+```
+
+## Go lang
+```shell
+# install go
+brew install go
+# go setup $GOPATH
+# export GOPATH=$HOME/go
+# export PATH=$PATH:$GOPATH/bin
 ```
 
 ## mysql
