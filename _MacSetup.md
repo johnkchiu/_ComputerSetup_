@@ -58,6 +58,14 @@ brew install go
 # export PATH=$PATH:$GOPATH/bin
 ```
 
+## scala
+```shell
+# install scala
+brew install scala
+# isntall sbt
+brew install sbt
+```
+
 ## mysql
 ```shell
 brew install mysql
