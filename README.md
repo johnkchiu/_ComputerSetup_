@@ -26,29 +26,26 @@
 > [Additional setup instructions for Windows.](_WindowsSetup.md)
 
 ## Windows + Mac
-* Dropbox - https://www.dropbox.com
-* Evernote - *AppStore*
-* Google Chrome - http://www.google.com/chrome
-* Google Drive - http://www.google.com/drive
-* Google Play Music Desktop Player - http://www.googleplaymusicdesktopplayer.com
-* LICEcap - http://www.cockos.com/licecap/
-* Picasa - http://picasa.google.com
-* Skype - http://www.skype.com/en/download-skype
-* Synergy - http://synergy-foss.org/download
-* Transmission Remote GUI - http://sourceforge.net/projects/transgui
 * Android
 	* Android SDK - http://developer.android.com/sdk/index.html#download
 	* Android Studio - https://developer.android.com/sdk/installing/studio.html
 	* Kindle Fire Device - https://developer.amazon.com/public/resources/development-tools/ide-tools/tech-docs/01-setting-up-your-development-environment#Installing the Android SDK and Eclipse IDE
 * Atom - https://atom.io
-	* https://atom.io/packages/editorconfig
-	* https://atom.io/packages/atom-beautify
-	* https://atom.io/packages/pretty-json
-	* https://atom.io/packages/highlight-selected
-	* https://atom.io/themes/seti-ui
-	* https://atom.io/themes/seti-syntax
+	* EditorConfig - https://atom.io/packages/editorconfig
+	* atom-beautify - https://atom.io/packages/atom-beautify
+	* Pretty JSON - https://atom.io/packages/pretty-json
+	* Highlight Selected - https://atom.io/packages/highlight-selected
+	* Seti UI - https://atom.io/themes/seti-ui
+	* Seti Synatx - https://atom.io/themes/seti-syntax
+* Dropbox - https://www.dropbox.com
+* Evernote - https://evernote.com/download
 * GitHub - http://mac.github.com/ http://windows.github.com
-* JetBrains WebStorm
+* Google Chrome - http://www.google.com/chrome
+* Google Drive - http://www.google.com/drive
+* Google Play Music Desktop Player - http://www.googleplaymusicdesktopplayer.com
+* IntelliJ IDEA - https://www.jetbrains.com/idea/
+	* ChroMATERIAL - https://plugins.jetbrains.com/plugin/7998-chromaterial
+* LICEcap - http://www.cockos.com/licecap/
 * P4Merge - http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools
 * SourceTree - http://www.sourcetreeapp.com/
 * Sublime Text 3.X - http://www.sublimetext.com/3 (Portable)
@@ -61,7 +58,9 @@
 	* Eclipse Color Theme - http://eclipsecolorthemes.org
 	* MoreUnit - http://moreunit.sourceforge.net
 	* EclEmma - http://www.eclemma.org
-* Node.js
-* Python
+* Transmission Remote GUI - http://sourceforge.net/projects/transgui
 * Visual Studio Code - https://code.visualstudio.com
+	* Beautify - https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
+	* change-case - https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case
+	* Material Theme - https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme
 * WhatsaApp - https://www.whatsapp.com/download/
