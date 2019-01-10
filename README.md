@@ -1,17 +1,39 @@
 # Desktop Applications + Utilities + Development Tools
 
-## Mac
-* AppCleaner - http://freemacsoft.net/appcleaner
-* BetterTouchTool - http://www.boastr.net/
-* Dash - https://kapeli.com/dash
-* iTerm2 - http://www.iterm2.com/#/section/downloads
-	* iterm2-color-schemes - http://iterm2colorschemes.com
-* Karabiner - https://pqrs.org/osx/karabiner
-* KeePassX - http://www.keepassx.org/downloads
-* MONIT Widget - https://mmonit.com/monit/#widget
-* Sublime 3 - http://www.sublimetext.com/3
-
 > [Additional setup instructions for Mac.](_MacSetup.md)
+
+> [Additional setup instructions for Windows.](_WindowsSetup.md)
+
+## General
+| Software | Info | Mac | Windows |
+|---|---|---|---|---|
+| AppCleaner | http://freemacsoft.net/appcleaner | 👍 | |
+| Ariel Screen Screensaver | https://github.com/JohnCoates/Aerial<br>`brew cask install aerial` | 👍 | |
+| ~~BetterTouchTool~~ | http://www.boastr.net | 👍 | |
+| Dropbox | https://www.dropbox.com | 👍 | 👍 |
+| Google Chrome | http://www.google.com/chrome | 👍 | 👍 |
+| Google Drive | http://www.google.com/drive<br> - "Backup and Sync" for personal account<br> - "Drive File Stream" for work account | 👍 | 👍 |
+| Karabiner | https://pqrs.org/osx/karabiner | 👍 | |
+| ~~KeePassX~~ | http://www.keepassx.org/downloads | 👍 | |
+| KeePassXC | https://keepassxc.org | 👍 | 👍 |
+| ~~MONIT Widget~~ | https://mmonit.com/monit/#widget | 👍 | |
+| Slack | https://slack.com<br>(Mac/Windows) App Store | 👍 | 👍 |
+| WhatsApp | https://www.whatsapp.com<br> (Mac/Windows) App Store | 👍 | 👍 |
+
+
+
+## Development
+| Software | Info | Mac | Windows |
+|---|---|---|---|---|
+| Dash | https://kapeli.com/dash | 👍 | |
+| iTerm2 | http://www.iterm2.com<br> - iterm2-color-schemes (http://iterm2colorschemes.com) | 👍 | |
+| IntelliJ IDEA | https://www.jetbrains.com/idea<br> - Material Theme UI (https://plugins.jetbrains.com/plugin/8006-material-theme-ui)<br> - String Manipulation (https://plugins.jetbrains.com/plugin/2162-string-manipulation) | 👍 | 👍 |
+| P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br>`alias p4merge='/Applications/p4merge.app/Contents/MacOS/p4merge'` | 👍 | 👍 |
+| SourceTree | http://www.sourcetreeapp.com | 👍 | 👍 |
+| Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) | 👍 | 👍 |
+	
+
+# OLD SECTION
 
 ## Windows
 * 7-Zip - http://www.7-zip.org
@@ -23,7 +45,6 @@
 * WinMerge -
 * Zeal - http://zealdocs.org
 
-> [Additional setup instructions for Windows.](_WindowsSetup.md)
 
 ## Windows + Mac
 * Android
@@ -37,17 +58,10 @@
 	* Highlight Selected - https://atom.io/packages/highlight-selected
 	* Seti UI - https://atom.io/themes/seti-ui
 	* Seti Synatx - https://atom.io/themes/seti-syntax
-* Dropbox - https://www.dropbox.com
 * Evernote - https://evernote.com/download
 * GitHub - http://mac.github.com/ http://windows.github.com
-* Google Chrome - http://www.google.com/chrome
-* Google Drive - http://www.google.com/drive
 * Google Play Music Desktop Player - http://www.googleplaymusicdesktopplayer.com
-* IntelliJ IDEA - https://www.jetbrains.com/idea/
-	* ChroMATERIAL - https://plugins.jetbrains.com/plugin/7998-chromaterial
 * LICEcap - http://www.cockos.com/licecap/
-* P4Merge - http://www.perforce.com/product/components/perforce-visual-merge-and-diff-tools
-* SourceTree - http://www.sourcetreeapp.com/
 * Sublime Text 3.X - http://www.sublimetext.com/3 (Portable)
 	* Package Control - https://sublime.wbond.net/installation
 	* Pretty JSON - https://sublime.wbond.net/packages/Pretty%20JSON
@@ -59,8 +73,3 @@
 	* MoreUnit - http://moreunit.sourceforge.net
 	* EclEmma - http://www.eclemma.org
 * Transmission Remote GUI - http://sourceforge.net/projects/transgui
-* Visual Studio Code - https://code.visualstudio.com
-	* Beautify - https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify
-	* change-case - https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case
-	* Material Theme - https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme
-* WhatsaApp - https://www.whatsapp.com/download/

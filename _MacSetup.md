@@ -2,17 +2,18 @@
 
 ## brew - http://brew.sh/
 ```shell
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ## zsh
 ```shell
 # zsh zsh-completions
 brew install zsh zsh-completions
-# oh-my-zsh - http://ohmyz.sh/
+# oh-my-zsh - http://ohmyz.sh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-# antigen
-curl -L git.io/antigen > .antigen.zsh
+# antigen (into home directory) - http://antigen.sharats.me
+curl -L git.io/antigen > ~/.antigen.zsh
+# now setup your dotfiles
 ```
 
 ## node.js / npm / nvm
@@ -75,21 +76,12 @@ brew install mysql
 
 ## p4merge
 ```shell
-# install p4merge
-brew install Caskroom/cask/p4merge
-# setup shell script
-echo $'#!/bin/sh\n/Applications/p4merge.app/Contents/Resources/launchp4merge $*' > /usr/local/bin/p4merge
-chmod +x '/usr/local/bin/p4merge'
+#alias
+alias p4merge='/Applications/p4merge.app/Contents/MacOS/p4merge'
 # setup git config
 git config --global merge.tool p4merge
 git config --global mergetool.keepTemporaries false
 git config --global mergetool.prompt false
-```
-
-## Ariel Screen Screensaver
-```shell
-# https://github.com/JohnCoates/Aerial
-brew cask install aerial
 ```
 
 ## Application Setup
