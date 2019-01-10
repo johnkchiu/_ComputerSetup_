@@ -6,7 +6,7 @@
 
 ## General
 | Software | Info | Mac | Windows |
-|---|---|---|---|---|
+|---|---|---|---|
 | AppCleaner | http://freemacsoft.net/appcleaner | 👍 | |
 | Ariel Screen Screensaver | https://github.com/JohnCoates/Aerial<br>`brew cask install aerial` | 👍 | |
 | ~~BetterTouchTool~~ | http://www.boastr.net | 👍 | |
@@ -24,7 +24,7 @@
 
 ## Development
 | Software | Info | Mac | Windows |
-|---|---|---|---|---|
+|---|---|---|---|
 | Dash | https://kapeli.com/dash | 👍 | |
 | iTerm2 | http://www.iterm2.com<br> - iterm2-color-schemes (http://iterm2colorschemes.com) | 👍 | |
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> - Material Theme UI (https://plugins.jetbrains.com/plugin/8006-material-theme-ui)<br> - String Manipulation (https://plugins.jetbrains.com/plugin/2162-string-manipulation) | 👍 | 👍 |
@@ -33,7 +33,7 @@
 | Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) | 👍 | 👍 |
 	
 
-# OLD SECTION
+# OLD SECTION`
 
 ## Windows
 * 7-Zip - http://www.7-zip.org
