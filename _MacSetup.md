@@ -1,12 +1,12 @@
 # Setup for Mac
 
 ## brew - http://brew.sh/
-```shell
+```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ## zsh
-```shell
+```bash
 # zsh zsh-completions
 brew install zsh zsh-completions
 # oh-my-zsh - http://ohmyz.sh
@@ -17,7 +17,7 @@ curl -L git.io/antigen > ~/.antigen.zsh
 ```
 
 ## node.js / npm / nvm
-```shell
+```bash
 # install nvm
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 # install latest node.js
@@ -26,7 +26,7 @@ nvm install node
 
 
 ## react-native
-```shell
+```bash
 # install node (see above)
 # install watchman
 brew install watchman
@@ -35,12 +35,12 @@ npm install -g react-native-cli
 ```
 
 ## yarn
-```shell
+```bash
 brew install yarn
 ```
 
 ## rbenv / ruby / rails
-```shell
+```bash
 # install rbenv
 brew install rbenv
 rbenv init
@@ -51,7 +51,7 @@ rbenv rehash
 ```
 
 ## Go lang
-```shell
+```bash
 # install go
 brew install go
 # go setup $GOPATH
@@ -59,23 +59,27 @@ brew install go
 # export PATH=$PATH:$GOPATH/bin
 ```
 
-## scala
-```shell
+## java / scala / sbt
+```bash
+# install sdkman + modify .bashrc/.zshrc
+curl -s "https://get.sdkman.io" | bash
+# isntall java
+sdk install java
 # install scala
-brew install scala
+sdk install scala
 # isntall sbt
-brew install sbt
+sdk install sbt
 ```
 
 ## mysql
-```shell
+```bash
 brew install mysql
 # mysql.server start
 # mysql.server stop
 ```
 
 ## p4merge
-```shell
+```bash
 #alias
 alias p4merge='/Applications/p4merge.app/Contents/MacOS/p4merge'
 # setup git config
@@ -84,8 +88,14 @@ git config --global mergetool.keepTemporaries false
 git config --global mergetool.prompt false
 ```
 
+## aws-cli
+```bash
+brew install awscli
+aws configure
+```
+
 ## Application Setup
-```shell
+```bash
 # atom commandline
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 
@@ -94,7 +104,7 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 ```
 
 ## Environment Setup
-```shell
+```bash
 # show hidden files
 defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder
