@@ -1,11 +1,12 @@
 # Setup for Mac
 
-## brew - http://brew.sh/
+## brew
 ```bash
+# install brew - http://brew.sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## zsh
+## zsh / oh-my-zsh / antigen
 ```bash
 # zsh zsh-completions
 brew install zsh zsh-completions
@@ -19,11 +20,15 @@ curl -L git.io/antigen > ~/.antigen.zsh
 ## node.js / npm / nvm
 ```bash
 # install nvm
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
 # install latest node.js
 nvm install node
 ```
 
+## yarn
+```bash
+brew install yarn
+```
 
 ## react-native
 ```bash
@@ -32,11 +37,6 @@ nvm install node
 brew install watchman
 # install reative-native-cli
 npm install -g react-native-cli
-```
-
-## yarn
-```bash
-brew install yarn
 ```
 
 ## rbenv / ruby / rails
@@ -59,12 +59,14 @@ brew install go
 # export PATH=$PATH:$GOPATH/bin
 ```
 
-## java / scala / sbt
+## java / scala / sbt / gradle
 ```bash
 # install sdkman + modify .bashrc/.zshrc
 curl -s "https://get.sdkman.io" | bash
 # isntall java
 sdk install java
+# install gradle
+sdk install gradle
 # install scala
 sdk install scala
 # isntall sbt
@@ -78,16 +80,6 @@ brew install mysql
 # mysql.server stop
 ```
 
-## p4merge
-```bash
-#alias
-alias p4merge='/Applications/p4merge.app/Contents/MacOS/p4merge'
-# setup git config
-git config --global merge.tool p4merge
-git config --global mergetool.keepTemporaries false
-git config --global mergetool.prompt false
-```
-
 ## aws-cli
 ```bash
 brew install awscli
@@ -96,6 +88,9 @@ aws configure
 
 ## Application Setup
 ```bash
+# p4merge commandline
+alias p4merge='/Applications/p4merge.app/Contents/MacOS/p4merge'
+
 # atom commandline
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 

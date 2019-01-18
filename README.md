@@ -19,6 +19,7 @@
 | Karabiner | https://pqrs.org/osx/karabiner | 👍 | |
 | ~~KeePassX~~ | http://www.keepassx.org/downloads | 👍 | |
 | KeePassXC | https://keepassxc.org | 👍 | 👍 |
+| Magnet | http://magnet.crowdcafe.com | 👍 | |
 | ~~MONIT Widget~~ | https://mmonit.com/monit/#widget | 👍 | |
 | Ring | https://ring.com<br> (Windows) App Store | 👍 | 👍 |
 | Slack | https://slack.com<br>(Mac/Windows) App Store | 👍 | 👍 |
@@ -35,9 +36,9 @@
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> - Material Theme UI (https://plugins.jetbrains.com/plugin/8006-material-theme-ui)<br> - String Manipulation (https://plugins.jetbrains.com/plugin/2162-string-manipulation)<br> - Grep Console (https://plugins.jetbrains.com/plugin/7125-grep-console)| 👍 | 👍 |
 | P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br>`alias p4merge='/Applications/p4merge.app/Contents/MacOS/p4merge'` | 👍 | 👍 |
 | SourceTree | http://www.sourcetreeapp.com | 👍 | 👍 |
-| Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)<br> - Encode Decode (https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc) | 👍 | 👍 |
+| Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)<br> - Encode Decode (https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)<br> - JSON Tools (https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools) | 👍 | 👍 |
 
-# OLD SECTION
+# OLD SECTION 👇
 
 ## Windows
 * 7-Zip - http://www.7-zip.org
