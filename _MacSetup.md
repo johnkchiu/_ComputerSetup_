@@ -13,7 +13,7 @@ brew install zsh zsh-completions
 # oh-my-zsh - http://ohmyz.sh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # antigen (into home directory) - http://antigen.sharats.me
-curl -L git.io/antigen > ~/.antigen.zsh
+curl -L git.io/antigen > ~/antigen.zsh
 # now setup your dotfiles
 ```
 
