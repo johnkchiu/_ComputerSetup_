@@ -11,6 +11,7 @@
 | Ariel Screen Screensaver | https://github.com/JohnCoates/Aerial<br>`brew cask install aerial` | 👍 | |
 | ~~BetterTouchTool~~ | http://www.boastr.net | 👍 | |
 | Dropbox | https://www.dropbox.com | 👍 | 👍 |
+| Evernote | https://evernote.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | Google Chrome | http://www.google.com/chrome | 👍 | 👍 |
 | Google Drive | http://www.google.com/drive<br> - "Backup and Sync" for personal account<br> - "Drive File Stream" for work account | 👍 | 👍 |
 | Helium | http://heliumfloats.com | 👍 | | 
@@ -29,6 +30,7 @@
 ## Development
 | Software | Info | Mac | Windows |
 |---|---|---|---|
+| Android Studio | https://developer.android.com/studio | 👍 | 👍 |
 | Dash | https://kapeli.com/dash | 👍 | |
 | Font (Hack) | https://sourcefoundry.org/hack | 👍 | 👍 |
 | Font (FiraCode) | https://github.com/tonsky/FiraCode | 👍 | 👍 |
@@ -52,10 +54,6 @@
 
 
 ## Windows + Mac
-* Android
-    * Android SDK - http://developer.android.com/sdk/index.html#download
-    * Android Studio - https://developer.android.com/sdk/installing/studio.html
-    * Kindle Fire Device - https://developer.amazon.com/public/resources/development-tools/ide-tools/tech-docs/01-setting-up-your-development-environment#Installing the Android SDK and Eclipse IDE
 * Atom - https://atom.io
     * EditorConfig - https://atom.io/packages/editorconfig
     * atom-beautify - https://atom.io/packages/atom-beautify
@@ -63,7 +61,6 @@
     * Highlight Selected - https://atom.io/packages/highlight-selected
     * Seti UI - https://atom.io/themes/seti-ui
     * Seti Synatx - https://atom.io/themes/seti-syntax
-* Evernote - https://evernote.com/download
 * GitHub - http://mac.github.com/ http://windows.github.com
 * Google Play Music Desktop Player - http://www.googleplaymusicdesktopplayer.com
 * LICEcap - http://www.cockos.com/licecap/
