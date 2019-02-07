@@ -32,6 +32,7 @@
 |---|---|---|---|
 | Android Studio | https://developer.android.com/studio | 👍 | 👍 |
 | Dash | https://kapeli.com/dash | 👍 | |
+| Docker | https://www.docker.com<br> ([Mac instruction](_MacSetup.md#docker)) | 👍 | 👍 |
 | Font (Hack) | https://sourcefoundry.org/hack | 👍 | 👍 |
 | Font (FiraCode) | https://github.com/tonsky/FiraCode | 👍 | 👍 |
 | iTerm2 | http://www.iterm2.com<br> - iterm2-color-schemes (http://iterm2colorschemes.com) | 👍 | |
