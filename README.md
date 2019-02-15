@@ -23,7 +23,7 @@
 | Magnet | http://magnet.crowdcafe.com | 👍 | |
 | ~~MONIT Widget~~ | https://mmonit.com/monit/#widget | 👍 | |
 | Ring | https://ring.com<br> (Windows) App Store | 👍 | 👍 |
-| Slack | https://slack.com<br>(Mac/Windows) App Store | 👍 | 👍 |
+| Slack | https://slack.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | WhatsApp | https://www.whatsapp.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | Wunderlist | https://www.wunderlist.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 
@@ -32,6 +32,7 @@
 |---|---|---|---|
 | Android Studio | https://developer.android.com/studio | 👍 | 👍 |
 | Dash | https://kapeli.com/dash | 👍 | |
+| DBeaver | https://dbeaver.io<br> (Mac) `brew cask install java dbeaver-community` | 👍 | 👍 |
 | Docker | https://www.docker.com<br> ([Mac instruction](_MacSetup.md#docker)) | 👍 | 👍 |
 | Font (Hack) | https://sourcefoundry.org/hack | 👍 | 👍 |
 | Font (FiraCode) | https://github.com/tonsky/FiraCode | 👍 | 👍 |
