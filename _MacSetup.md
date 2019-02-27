@@ -1,23 +1,14 @@
 # Setup for Mac
 
-## brew
+## Development Tools
+
+### brew
 ```bash
 # install brew - http://brew.sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-## zsh / oh-my-zsh / antigen
-```bash
-# zsh zsh-completions
-brew install zsh zsh-completions
-# oh-my-zsh - http://ohmyz.sh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-# antigen (into home directory) - http://antigen.sharats.me
-curl -L git.io/antigen > ~/antigen.zsh
-# now setup your dotfiles
-```
-
-## docker
+### docker
 ```bash
 # install docker
 brew cask install docker
@@ -28,40 +19,7 @@ ln -s $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_do
 ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
 ```
 
-## node.js / npm / nvm
-```bash
-# install nvm
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
-# install latest node.js
-nvm install node
-```
-
-## yarn
-```bash
-brew install yarn
-```
-
-## react-native
-```bash
-# install node (see above)
-# install watchman
-brew install watchman
-# install reative-native-cli
-npm install -g react-native-cli
-```
-
-## rbenv / ruby / rails
-```bash
-# install rbenv
-brew install rbenv
-rbenv init
-# ruby should be installed
-# install rails
-gem install rails
-rbenv rehash
-```
-
-## Go lang
+### Go lang
 ```bash
 # install go
 brew install go
@@ -70,7 +28,7 @@ brew install go
 # export PATH=$PATH:$GOPATH/bin
 ```
 
-## java / scala / sbt / gradle
+### java / scala / sbt / gradle
 ```bash
 # install sdkman + modify .bashrc/.zshrc
 curl -s "https://get.sdkman.io" | bash
@@ -84,17 +42,55 @@ sdk install scala
 sdk install sbt
 ```
 
-## mysql
+### mysql
 ```bash
 brew install mysql
 # mysql.server start
 # mysql.server stop
 ```
 
-## aws-cli
+### node.js / npm / nvm
 ```bash
-brew install awscli
-aws configure
+# install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+# install latest node.js
+nvm install node
+```
+
+### react-native
+```bash
+# install node (see above)
+# install watchman
+brew install watchman
+# install reative-native-cli
+npm install -g react-native-cli
+```
+
+### ruby / rbenv / rails
+```bash
+# install rbenv
+brew install rbenv
+rbenv init
+# ruby should be installed
+# install rails
+gem install rails
+rbenv rehash
+```
+
+## yarn
+```bash
+brew install yarn
+```
+
+### zsh / oh-my-zsh / antigen
+```bash
+# zsh zsh-completions
+brew install zsh zsh-completions
+# oh-my-zsh - http://ohmyz.sh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# antigen (into home directory) - http://antigen.sharats.me
+curl -L git.io/antigen > ~/antigen.zsh
+# now setup your dotfiles
 ```
 
 ## Application Setup
