@@ -2,6 +2,12 @@
 
 ## Development Tools
 
+### aws-cli
+```bash
+brew install awscli
+aws configure
+```
+
 ### brew
 ```bash
 # install brew - http://brew.sh
