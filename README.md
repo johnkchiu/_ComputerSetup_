@@ -19,7 +19,7 @@
 | Itsycal | https://www.mowglii.com/itsycal/ | 👍 | |
 | Karabiner | https://pqrs.org/osx/karabiner | 👍 | |
 | ~~KeePassX~~ | http://www.keepassx.org/downloads | 👍 | |
-| KeePassXC | https://keepassxc.org | 👍 | 👍 |
+| KeePassXC | https://keepassxc.org<br> (Mac) `brew cask install keepassxc`<br> (Windows) `choco install keepassxc` | 👍 | 👍 |
 | Magnet | http://magnet.crowdcafe.com | 👍 | |
 | ~~MONIT Widget~~ | https://mmonit.com/monit/#widget | 👍 | |
 | Ring | https://ring.com<br> (Windows) App Store | 👍 | 👍 |
