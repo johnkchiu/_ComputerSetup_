@@ -63,6 +63,14 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | b
 nvm install node
 ```
 
+### python
+```bash
+# install python 3
+brew install python
+# install python 2
+brew install python@2
+```
+
 ### react-native
 ```bash
 # install node (see above)
@@ -83,7 +91,15 @@ gem install rails
 rbenv rehash
 ```
 
-## yarn
+### terraform
+```bash
+# install tfswitch
+brew install warrensbox/tap/tfswitch
+# run and select version
+tfswitch
+```
+
+### yarn
 ```bash
 brew install yarn
 ```
