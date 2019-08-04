@@ -63,6 +63,8 @@ iptables -I INPUT -p udp --destination-port 51413 -j ACCEPT
 /opt/etc/init.d/S88transmission start
 ```
 
+### Duck DNS
+* Enable custom scripts (Administration -> System -> Enable JFFS custom scripts and configs	=> Yes)
 
 
 
