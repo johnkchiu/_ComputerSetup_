@@ -29,6 +29,13 @@ sudo ln -s "/mnt/c/Users/$USER/AppData/Local/Programs/Microsoft VS Code/Code.exe
     Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
     ```
 
+### fish (shell)
+```shell
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt-get update
+sudo apt-get install fish
+```
+
 ### git
 ```shell
 sudo apt install git
@@ -38,15 +45,6 @@ sudo apt install git
 ```shell
 # zsh
 sudo apt-get install zsh
-
-# setup zsh as shell
-vi ~/.bashrc
-# Add following to start
-# -------------------------
-# if [ -t 1 ]; then
-#     exec zsh
-# fi
-# -------------------------
 
 # oh-my-zsh - http://ohmyz.sh/
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
