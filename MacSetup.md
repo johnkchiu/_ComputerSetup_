@@ -93,10 +93,10 @@ rbenv rehash
 
 ### terraform
 ```bash
-# install tfswitch
-brew install warrensbox/tap/tfswitch
-# run and select version
-tfswitch
+# install tfenv
+brew install tfenv
+# install terraform
+tfenv install latest
 ```
 
 ### yarn

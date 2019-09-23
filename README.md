@@ -1,8 +1,8 @@
 # Desktop Applications + Utilities + Development Tools
 
-> [Additional setup instructions for Mac.](_MacSetup.md)
+> [Additional setup instructions for Mac.](MacSetup.md)
 
-> [Additional setup instructions for Windows.](_WindowsSetup.md)
+> [Additional setup instructions for Windows.](WindowsSetup.md)
 
 ## General
 | Software | Info | Mac | Windows |
@@ -33,7 +33,7 @@
 | Android Studio | https://developer.android.com/studio | 👍 | 👍 |
 | Dash | https://kapeli.com/dash | 👍 | |
 | DBeaver | https://dbeaver.io<br> (Mac) `brew cask install java dbeaver-community` | 👍 | 👍 |
-| Docker | https://www.docker.com<br> ([Mac instruction](_MacSetup.md#docker)) | 👍 | 👍 |
+| Docker | https://www.docker.com<br> ([Mac instruction](MacSetup.md#docker)) | 👍 | 👍 |
 | Font (Hack) | https://sourcefoundry.org/hack | 👍 | 👍 |
 | Font (Fira Code) | https://github.com/tonsky/FiraCode | 👍 | 👍 |
 | Font (Cascadia Code) | https://github.com/microsoft/cascadia-code)<br> (Mac) `brew tap homebrew/cask-fonts && brew cask install font-cascadia` | 👍 | 👍 |
