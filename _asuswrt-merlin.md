@@ -4,7 +4,13 @@ https://github.com/RMerl/asuswrt-merlin
 ## General Setup
 * Force AiMesh Wired (Network Map -> AiMesh Node -> (Select Node) -> More COnfig -> Connection Priority => Ethernet)
 * Enable SSH (Administration -> System -> Enable SSH => Yes)
-* Set Timezone (Administration - System -> Time Zone)
+* Set Timezone (Administration -> System -> Time Zone)
+* Custom DNS via Google DNS (WAN -> Internet Connection -> WAN DNS Setting)
+  * Connect to DNS Server automatically => No
+  * DNS Server1 => 8.8.8.8
+  * DNS Server => 8.8.4.4
+  * DNS Privacy Protocol => DNS-over-TLS (DOT)
+  * Preset servers: Google 8.8.8.8, Google 8.8.4.4
 
 ### Entware
 ```bash
@@ -65,7 +71,5 @@ iptables -I INPUT -p udp --destination-port 51413 -j ACCEPT
 
 ### Duck DNS
 * Enable custom scripts (Administration -> System -> Enable JFFS custom scripts and configs	=> Yes)
-
-
-
-
+* Create `/jffs/scripts/ddns-start` using sample [Duck DNS Sample script](https://github.com/RMerl/asuswrt-merlin/wiki/DDNS-Sample-Scripts#duck-dns)
+* Set DDNS to custom (WAN -> DDNS -> DDNS Service -> Server => Customer)
