@@ -35,7 +35,8 @@
 | DBeaver | https://dbeaver.io<br> (Mac) `brew cask install java dbeaver-community` | 👍 | 👍 |
 | Docker | https://www.docker.com<br> ([Mac instruction](_MacSetup.md#docker)) | 👍 | 👍 |
 | Font (Hack) | https://sourcefoundry.org/hack | 👍 | 👍 |
-| Font (FiraCode) | https://github.com/tonsky/FiraCode | 👍 | 👍 |
+| Font (Fira Code) | https://github.com/tonsky/FiraCode | 👍 | 👍 |
+| Font (Cascadia Code) | https://github.com/microsoft/cascadia-code)<br> (Mac) `brew tap homebrew/cask-fonts && brew cask install font-cascadia` | 👍 | 👍 |
 | iTerm2 | http://www.iterm2.com<br> - iterm2-color-schemes (http://iterm2colorschemes.com) | 👍 | |
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> - Material Theme UI (https://plugins.jetbrains.com/plugin/8006-material-theme-ui)<br> - String Manipulation (https://plugins.jetbrains.com/plugin/2162-string-manipulation)<br> - Grep Console (https://plugins.jetbrains.com/plugin/7125-grep-console)| 👍 | 👍 |
 | P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br>`alias p4merge='/Applications/p4merge.app/Contents/MacOS/p4merge'` | 👍 | 👍 |
