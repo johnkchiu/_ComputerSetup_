@@ -39,7 +39,7 @@
 | Font (Cascadia Code) | https://github.com/microsoft/cascadia-code)<br> (Mac) `brew tap homebrew/cask-fonts && brew cask install font-cascadia` | 👍 | 👍 |
 | iTerm2 | http://www.iterm2.com<br> - iterm2-color-schemes (http://iterm2colorschemes.com) | 👍 | |
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> - Material Theme UI (https://plugins.jetbrains.com/plugin/8006-material-theme-ui)<br> - String Manipulation (https://plugins.jetbrains.com/plugin/2162-string-manipulation)<br> - Grep Console (https://plugins.jetbrains.com/plugin/7125-grep-console)| 👍 | 👍 |
-| P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br>`alias p4merge='/Applications/p4merge.app/Contents/MacOS/p4merge'` | 👍 | 👍 |
+| P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br> (Mac) `brew cask install p4v` | 👍 | 👍 |
 | SourceTree | http://www.sourcetreeapp.com | 👍 | 👍 |
 | Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)<br> - Encode Decode (https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)<br> - JSON Tools (https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools) | 👍 | 👍 |
 

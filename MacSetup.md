@@ -117,9 +117,6 @@ curl -L git.io/antigen > ~/antigen.zsh
 
 ## Application Setup
 ```bash
-# p4merge commandline
-alias p4merge='/Applications/p4merge.app/Contents/MacOS/p4merge'
-
 # atom commandline
 ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 
