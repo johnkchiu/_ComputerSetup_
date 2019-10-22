@@ -37,7 +37,7 @@
 | Font (Hack) | https://sourcefoundry.org/hack | 👍 | 👍 |
 | Font (Fira Code) | https://github.com/tonsky/FiraCode | 👍 | 👍 |
 | Font (Cascadia Code) | https://github.com/microsoft/cascadia-code)<br> (Mac) `brew tap homebrew/cask-fonts && brew cask install font-cascadia` | 👍 | 👍 |
-| iTerm2 | http://www.iterm2.com<br> - iterm2-color-schemes (http://iterm2colorschemes.com) | 👍 | |
+| iTerm2 | http://www.iterm2.com<br> (Mac) `brew cask install iterm2`<br> - iterm2-color-schemes (http://iterm2colorschemes.com) | 👍 | |
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> - Material Theme UI (https://plugins.jetbrains.com/plugin/8006-material-theme-ui)<br> - String Manipulation (https://plugins.jetbrains.com/plugin/2162-string-manipulation)<br> - Grep Console (https://plugins.jetbrains.com/plugin/7125-grep-console)| 👍 | 👍 |
 | P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br> (Mac) `brew cask install p4v` | 👍 | 👍 |
 | SourceTree | http://www.sourcetreeapp.com | 👍 | 👍 |
