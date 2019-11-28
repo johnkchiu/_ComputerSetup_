@@ -41,7 +41,7 @@
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> - Material Theme UI (https://plugins.jetbrains.com/plugin/8006-material-theme-ui)<br> - String Manipulation (https://plugins.jetbrains.com/plugin/2162-string-manipulation)<br> - Grep Console (https://plugins.jetbrains.com/plugin/7125-grep-console)| 👍 | 👍 |
 | P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br> (Mac) `brew cask install p4v` | 👍 | 👍 |
 | SourceTree | http://www.sourcetreeapp.com | 👍 | 👍 |
-| Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)<br> - Encode Decode (https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)<br> - JSON Tools (https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools) | 👍 | 👍 |
+| Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)<br> - Encode Decode (https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)<br> - JSON Tools (https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)<br> (Mac) `brew cask install visual-studio-code` | 👍 | 👍 |
 
 # OLD SECTION 👇
 

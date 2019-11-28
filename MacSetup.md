@@ -25,6 +25,11 @@ ln -s $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_do
 ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
 ```
 
+### fish
+```bash
+brew install fish
+```
+
 ### Go lang
 ```bash
 # install go
