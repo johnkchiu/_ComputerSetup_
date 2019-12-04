@@ -31,8 +31,9 @@
 | Software | Info | Mac | Windows |
 |---|---|---|---|
 | Android Studio | https://developer.android.com/studio | 👍 | 👍 |
-| Dash | https://kapeli.com/dash | 👍 | |
+| ~~Dash~~ | https://kapeli.com/dash | 👍 | |
 | DBeaver | https://dbeaver.io<br> (Mac) `brew cask install java dbeaver-community` | 👍 | 👍 |
+| DevDocs | https://devdocs.io<br> (Mac) `brew cask install devdocs` | 👍 | 👍 |
 | Docker | https://www.docker.com<br> ([Mac instruction](MacSetup.md#docker)) | 👍 | 👍 |
 | Font (Hack) | https://sourcefoundry.org/hack | 👍 | 👍 |
 | Font (Fira Code) | https://github.com/tonsky/FiraCode | 👍 | 👍 |
