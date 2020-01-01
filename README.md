@@ -35,9 +35,9 @@
 | DBeaver | https://dbeaver.io<br> (Mac) `brew cask install java dbeaver-community` | 👍 | 👍 |
 | DevDocs | https://devdocs.io<br> (Mac) `brew cask install devdocs` | 👍 | 👍 |
 | Docker | https://www.docker.com<br> ([Mac instruction](MacSetup.md#docker)) | 👍 | 👍 |
-| Font (Hack) | https://sourcefoundry.org/hack | 👍 | 👍 |
-| Font (Fira Code) | https://github.com/tonsky/FiraCode | 👍 | 👍 |
-| Font (Cascadia Code) | https://github.com/microsoft/cascadia-code)<br> (Mac) `brew tap homebrew/cask-fonts && brew cask install font-cascadia` | 👍 | 👍 |
+| ~~Font (Hack)~~ | https://sourcefoundry.org/hack | 👍 | 👍 |
+| ~~Font (Fira Code)~~ | https://github.com/tonsky/FiraCode | 👍 | 👍 |
+| Font (Cascadia Code) | https://github.com/microsoft/cascadia-code)<br> (Mac) `brew tap homebrew/cask-fonts && brew cask install font-cascadia`<br> (Windows) `choco install cascadiacode` | 👍 | 👍 |
 | iTerm2 | http://www.iterm2.com<br> (Mac) `brew cask install iterm2`<br> - iterm2-color-schemes (http://iterm2colorschemes.com) | 👍 | |
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> - Material Theme UI (https://plugins.jetbrains.com/plugin/8006-material-theme-ui)<br> - String Manipulation (https://plugins.jetbrains.com/plugin/2162-string-manipulation)<br> - Grep Console (https://plugins.jetbrains.com/plugin/7125-grep-console)| 👍 | 👍 |
 | P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br> (Mac) `brew cask install p4v` | 👍 | 👍 |
