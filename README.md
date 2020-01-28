@@ -14,13 +14,13 @@
 | Evernote | https://evernote.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | Google Chrome | http://www.google.com/chrome | 👍 | 👍 |
 | Google Drive | http://www.google.com/drive<br> - "Backup and Sync" for personal account<br> - "Drive File Stream" for work account | 👍 | 👍 |
-| Helium | http://heliumfloats.com | 👍 | | 
+| ~~Helium~~ | http://heliumfloats.com | 👍 | | 
 | Irvue | http://irvue.tumblr.com | 👍 | |
 | Itsycal | https://www.mowglii.com/itsycal/ | 👍 | |
-| Karabiner | https://pqrs.org/osx/karabiner | 👍 | |
+| Karabiner | https://pqrs.org/osx/karabiner<br> (Mac) `brew install karabiner-elements` | 👍 | |
 | ~~KeePassX~~ | http://www.keepassx.org/downloads | 👍 | |
 | KeePassXC | https://keepassxc.org<br> (Mac) `brew cask install keepassxc`<br> (Windows) `choco install keepassxc` | 👍 | 👍 |
-| Magnet | http://magnet.crowdcafe.com | 👍 | |
+| Magnet | http://magnet.crowdcafe.com<br> (Mac) App Store | 👍 | |
 | ~~MONIT Widget~~ | https://mmonit.com/monit/#widget | 👍 | |
 | Ring | https://ring.com<br> (Windows) App Store | 👍 | 👍 |
 | Slack | https://slack.com<br> (Mac/Windows) App Store | 👍 | 👍 |
