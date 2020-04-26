@@ -12,6 +12,7 @@
 | ~~BetterTouchTool~~ | http://www.boastr.net | 👍 | |
 | Dropbox | https://www.dropbox.com | 👍 | 👍 |
 | Evernote | https://evernote.com<br> (Mac/Windows) App Store | 👍 | 👍 |
+| Etcher | https://etcher.io<br> (Mac) `brew cask install balenaetcher`<br> (Windows) `choco install etcher` | 👍 | 👍 |
 | Google Chrome | http://www.google.com/chrome | 👍 | 👍 |
 | Google Drive | http://www.google.com/drive<br> - "Backup and Sync" for personal account<br> - "Drive File Stream" for work account | 👍 | 👍 |
 | ~~Helium~~ | http://heliumfloats.com | 👍 | | 
