@@ -53,6 +53,9 @@ Add new Keymap file to `~/Library/Application Support/JetBrains/<product><versio
 * [Kotlin](https://plugins.jetbrains.com/plugin/6954-kotlin)
 * [Markdown](https://plugins.jetbrains.com/plugin/7793-markdown/)
 * [Scala](https://plugins.jetbrains.com/plugin/1347-scala)
+* [Terraform](https://plugins.jetbrains.com/plugin/7808-hashicorp-terraform--hcl-language-support)
+  * *Preferences | Editor | Code Style | Terraform Config*
+    * Other | Formatting Options | Align properties: On equals
 
 ### Tools
 * [Grep Console](https://plugins.jetbrains.com/plugin/7125-grep-console)
