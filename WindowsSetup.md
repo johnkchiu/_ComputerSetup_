@@ -22,12 +22,24 @@
 ```shell
 sudo ln -s "/mnt/c/Users/$USER/AppData/Local/Programs/Microsoft VS Code/Code.exe" /usr/local/bin/code
 ```
-## Ubuntu on Windows Subsystem for Linux (WSL)
-1. Install Ubuntu via [Windows Store](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+
+## Ubuntu on Windows Subsystem for Linux (WSL 2)
+
+### Ubuntu Install
 1. Open PowerShell as an Administrator and run:
     ```
-    Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
+    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+    wsl --set-default-version 2
     ```
+1. Install Ubuntu via [Windows Store](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+
+### Ubuntu update / upgrade
+```
+sudo apt-get update
+sudo apt-get upgrade
+do-release-upgrade -d
+```
 
 ### fish (shell)
 ```shell
