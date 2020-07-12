@@ -1,5 +1,4 @@
 # Setup for Windows
-
 ## Windows Apps
 
 ### Chocolatey
@@ -44,10 +43,24 @@ do-release-upgrade -d
 
 ### fish (shell)
 ```shell
+# install fish
 sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt-get update
 sudo apt-get install fish
+# install fisher (package manager)
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+# change default shell
 chsh -s /usr/bin/fish
+```
+
+### java
+```bash
+# requires zip
+sudo apt-get install zip unzip
+# install sdkman for fish
+fisher add reitzig/sdkman-for-fish@v1.4.0
+# install java (will prompt to install sdkman)
+sdk install java
 ```
 
 ### git
