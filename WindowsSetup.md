@@ -38,6 +38,7 @@ sudo ln -s "/mnt/c/Users/$USER/AppData/Local/Programs/Microsoft VS Code/Code.exe
 ```
 sudo apt-get update
 sudo apt-get upgrade
+sudo apt dist-upgrade
 do-release-upgrade -d
 ```
 
