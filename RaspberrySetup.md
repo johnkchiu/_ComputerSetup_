@@ -1,5 +1,12 @@
 # Setup for Raspberry Pi
 
+## fish shell
+```shell
+sudo api-get install fish
+chsh -s $(which fish)
+
+```
+
 ## zsh / oh-my-zsh
 ```shell
 sudo apt-get update # optional

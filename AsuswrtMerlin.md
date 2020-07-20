@@ -12,11 +12,24 @@ https://github.com/RMerl/asuswrt-merlin
   * DNS Privacy Protocol => DNS-over-TLS (DOT)
   * Preset servers: Google 8.8.8.8, Google 8.8.4.4
 
+### Format USB Drive
+
+See [Disk formatting](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Disk-formatting) instructions.
+
+* Less than 2 TB drive, use [amtm](https://diversion.ch/amtm.html).
+* Greater than 2 TB drive
+  1. Plug USB drive to Linux computer (e.g Raspberry Pi), and `fdisk` to GPT partition like [Repartition disk](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Disk-formatting#7-repartition-disk) instructions.
+  2. Plug USB drive to router, and format like [Format and adjust filesystem features](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Disk-formatting#8-format-and-adjust-filesystem-features) instructions.
+
 ### Entware
-```bash
-# ssh to router
-entware-setup.sh
-```
+
+Use [amtm](https://diversion.ch/amtm.html).
+
+### Diversion, uiDivStats
+
+* Use [amtm](https://diversion.ch/amtm.html) to install Diversion.
+* Use custom hosted [allowlist](https://raw.githubusercontent.com/johnkchiu/allowlist/master/domains/_full-list.txt).
+* Use [amtm](https://diversion.ch/amtm.html) to install uiDivStats.
 
 ### Git
 Create `$HOME/.gitssh.sh` file
