@@ -1,8 +1,22 @@
 # Setup for Raspberry Pi
 
+## ssh
+```shell
+sudo raspi-config
+# enable "Interfacing Options" -> "SSH" 
+```
+
+## vnc server (RealVNC)
+```shell
+sudo raspi-config
+# enable "Interfacing Options" -> "VNC" 
+# set "Advanced Options" -> "Resolution" to "1920x1080"
+# reboot
+```
+
 ## fish shell
 ```shell
-sudo api-get install fish
+sudo apt-get install fish
 chsh -s $(which fish)
 
 ```
