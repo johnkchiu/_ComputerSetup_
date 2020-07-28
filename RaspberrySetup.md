@@ -1,5 +1,24 @@
 # Setup for Raspberry Pi
 
+
+## fish shell
+```shell
+sudo apt-get install fish
+chsh -s $(which fish)
+
+```
+
+## openvpn
+```shell
+sudo apt-get install openvpn
+sudo cd /etc/openvpn
+sudo cp [*.ovpn] .
+# start
+sudo openvpn --config [*.ovpn] --daemon
+# shutdown
+sudo killall -SIGINT openvpn
+```
+
 ## ssh
 ```shell
 sudo raspi-config
@@ -12,13 +31,6 @@ sudo raspi-config
 # enable "Interfacing Options" -> "VNC" 
 # set "Advanced Options" -> "Resolution" to "1920x1080"
 # reboot
-```
-
-## fish shell
-```shell
-sudo apt-get install fish
-chsh -s $(which fish)
-
 ```
 
 ## zsh / oh-my-zsh
