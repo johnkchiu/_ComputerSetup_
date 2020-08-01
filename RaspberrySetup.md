@@ -1,11 +1,24 @@
-# Setup for Raspberry Pi
-
+# Setup for Raspberry P
 
 ## fish shell
 ```shell
 sudo apt-get install fish
 chsh -s $(which fish)
 
+```
+
+# mount nfs
+```shell
+# manually
+sudo mkdir /var/backups
+sudo mount -t nfs 10.10.0.10:/backups /var/backups
+
+# automatically
+sudo mkdir /var/backups
+sudo vi /etc/fstab
+# <file system>       <dir>         <type>   <options>   <dump> <pass>
+# 10.10.0.10:/backups /var/backups  nfs      defaults    0      0\
+sudo mount /var/backups
 ```
 
 ## openvpn
