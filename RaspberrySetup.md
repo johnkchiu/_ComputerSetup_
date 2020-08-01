@@ -38,6 +38,23 @@ sudo raspi-config
 # enable "Interfacing Options" -> "SSH" 
 ```
 
+## transmission
+```shell
+sudo apt install transmission-daemon
+
+# edit configs
+sudo systemctl stop transmission-daemon
+sudo vi /etc/transmission-daemon/settings.json
+
+# add permissions
+sudo usermod -aG debian-transmission pi
+sudo systemctl daemon-reload
+
+# start
+sudo systemctl start transmission-daemon
+
+```
+
 ## vnc server (RealVNC)
 ```shell
 sudo raspi-config
