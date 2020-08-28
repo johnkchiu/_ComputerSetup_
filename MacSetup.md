@@ -28,6 +28,9 @@ ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_do
 ### fish
 ```bash
 brew install fish
+sudo vi /etc/shells
+# add `/usr/local/bin/fish`
+chsh -s /usr/local/bin/fish
 ```
 
 ### Go lang
