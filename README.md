@@ -18,7 +18,7 @@
 | ~~Helium~~ | http://heliumfloats.com | 👍 | | 
 | Irvue | http://irvue.tumblr.com | 👍 | |
 | Itsycal | https://www.mowglii.com/itsycal/ | 👍 | |
-| Karabiner | https://pqrs.org/osx/karabiner<br> (Mac) `brew install karabiner-elements` | 👍 | |
+| Karabiner | https://pqrs.org/osx/karabiner<br> (Mac) `brew cask install karabiner-elements` | 👍 | |
 | ~~KeePassX~~ | http://www.keepassx.org/downloads | 👍 | |
 | KeePassXC | https://keepassxc.org<br> (Mac) `brew cask install keepassxc`<br> (Windows) `choco install keepassxc` | 👍 | 👍 |
 | Magnet | http://magnet.crowdcafe.com<br> (Mac) App Store | 👍 | |
