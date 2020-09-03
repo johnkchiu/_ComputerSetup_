@@ -1,6 +1,5 @@
 # Setup for IntelliJ IDEA
 
-
 ## Preferences
 * *Preferences | Appearance & Behavior | System Settings*
   * Startup/Shutdown | Reopen last project on startup: ❎
@@ -10,27 +9,15 @@
   * Scheme: Material Oceanic
   * Use color scheme font instead of the default: ❎
 
+## Sync Settings
+* *File | Manage IDE Settings | Sync Settings to JetBrains Account*
+
 ## Custom VM Options
-Add the following custom VM options (`Help > Edit Custom VM Options...`)
+Increase memory for the following custom VM options (*Help > Edit Custom VM Options...*)
 ```
-# custom IntelliJ IDEA VM options
 -Xms4g
 -Xmx6g
 -XX:ReservedCodeCacheSize=1g
--XX:+UseCompressedOops
--Dfile.encoding=UTF-8
--XX:+UseG1GC
--XX:-UseParNewGC
--XX:-UseConcMarkSweepGC
--XX:SoftRefLRUPolicyMSPerMB=50
--ea
--Dsun.io.useCanonCaches=false
--Djava.net.preferIPv4Stack=true
--XX:+HeapDumpOnOutOfMemoryError
--XX:-OmitStackTraceInFastThrow
--Xverify:none
--XX:ErrorFile=$USER_HOME/java_error_in_idea_%p.log
--XX:HeapDumpPath=$USER_HOME/java_error_in_idea.hprof
 ```
 
 ## Keymap

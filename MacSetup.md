@@ -18,7 +18,7 @@ aws configure
 ```bash
 # install docker
 brew cask install docker
-# setup completion
+# setup completion (for zsh)
 etc=/Applications/Docker.app/Contents/Resources/etc
 ln -s $etc/docker.zsh-completion /usr/local/share/zsh/site-functions/_docker
 ln -s $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_docker-machine
@@ -31,6 +31,8 @@ brew install fish
 sudo vi /etc/shells
 # add `/usr/local/bin/fish`
 chsh -s /usr/local/bin/fish
+# install fisher
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 ```
 
 ### Go lang
@@ -38,21 +40,33 @@ chsh -s /usr/local/bin/fish
 # install go
 brew install go
 # go setup $GOPATH
-# export GOPATH=$HOME/go
+# export GOPATH=$HOME/Workspace/go
 # export PATH=$PATH:$GOPATH/bin
+```
+
+### iterm2
+```bash
+#install
+brew cask install iterm2
+# use preferences directory
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string ~/iterm2
+defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+# after launch turn on Preferences -> General -> Preferences -> Save changes to folder when iTerm2 quits.
 ```
 
 ### java / scala / sbt / gradle
 ```bash
 # install sdkman + modify .bashrc/.zshrc
 curl -s "https://get.sdkman.io" | bash
-# isntall java
+# (for fish)
+fisher add reitzig/sdkman-for-fish
+# install java
 sdk install java
 # install gradle
 sdk install gradle
 # install scala
 sdk install scala
-# isntall sbt
+# install sbt
 sdk install sbt
 ```
 
@@ -66,7 +80,10 @@ brew install mysql
 ### node.js / npm / nvm
 ```bash
 # install nvm
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+# (for fish)
+fisher add FabioAntunes/fish-nvm
+fisher add edc/bass
 # install latest node.js
 nvm install node
 ```
@@ -105,6 +122,7 @@ rbenv rehash
 brew install tfenv
 # install terraform
 tfenv install latest
+tfenv use
 ```
 
 ### yarn
