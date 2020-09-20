@@ -25,14 +25,16 @@ ln -s $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_do
 ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
 ```
 
-### fish
+### fish + fzf
 ```bash
 brew install fish
 sudo vi /etc/shells
 # add `/usr/local/bin/fish`
 chsh -s /usr/local/bin/fish
-# install fisher
+# install fisher + fzf
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+brew install fzf
+fisher add jethrokuan/fzf
 ```
 
 ### Go lang
