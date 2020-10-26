@@ -38,7 +38,7 @@
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> [See additional setup for IntelliJ IDEA](IntelliJIDEASetup.md)| 👍 | 👍 |
 | P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br> (Mac) `brew cask install p4v` | 👍 | 👍 |
 | SourceTree | http://www.sourcetreeapp.com<br> (Mac) `brew cask install sourcetree` | 👍 | 👍 |
-| Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)<br> - Encode Decode (https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)<br> - JSON Tools (https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)<br> (Mac) `brew cask install visual-studio-code` | 👍 | 👍 |
+| Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)<br> - Encode Decode (https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)<br> - JSON Tools (https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)<br> (Mac) `brew cask install visual-studio-code`<br> (Windows) `choco install vscode`<br> (Note: Sync via Github) | 👍 | 👍 |
 
 # OLD SECTION 👇
 
