@@ -49,6 +49,8 @@ sudo apt-get update
 sudo apt-get install fish
 # install fisher (package manager)
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+sudo apt install fzf
+fisher add jethrokuan/fzf
 # change default shell
 chsh -s /usr/bin/fish
 ```
