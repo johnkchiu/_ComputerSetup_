@@ -57,6 +57,7 @@ Create `/jffs/configs/profile.add`
 ```bash
 # install fish
 opkg install fish bc
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 ```
 
 ### Transmission
