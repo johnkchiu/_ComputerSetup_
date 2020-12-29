@@ -56,7 +56,7 @@ defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 # after launch turn on Preferences -> General -> Preferences -> Save changes to folder when iTerm2 quits.
 ```
 
-### java / scala / sbt / gradle
+### java / scala / sbt / gradle / groovy
 ```bash
 # install sdkman + modify .bashrc/.zshrc
 curl -s "https://get.sdkman.io" | bash
@@ -70,6 +70,8 @@ sdk install gradle
 sdk install scala
 # install sbt
 sdk install sbt
+# install groovy
+sdk install groovy
 ```
 
 ### mysql
