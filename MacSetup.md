@@ -29,7 +29,7 @@ ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_do
 ```bash
 brew install fish
 sudo vi /etc/shells
-# add `/usr/local/bin/fish`
+# add `/usr/local/bin/fish` for Intel (or `/opt/homebrew/bin/fish` for ARM)
 chsh -s /usr/local/bin/fish
 # install fisher + fzf
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
