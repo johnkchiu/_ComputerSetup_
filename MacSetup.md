@@ -17,7 +17,7 @@ aws configure
 ### docker
 ```bash
 # install docker
-brew cask install docker
+brew install docker
 # setup completion (for zsh)
 etc=/Applications/Docker.app/Contents/Resources/etc
 ln -s $etc/docker.zsh-completion /usr/local/share/zsh/site-functions/_docker
@@ -49,7 +49,7 @@ brew install go
 ### iterm2
 ```bash
 #install
-brew cask install iterm2
+brew install iterm2
 # use preferences directory
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string ~/iterm2
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
@@ -163,5 +163,5 @@ defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder
 
 # Markdown Preview
-brew cask install qlmarkdown
+brew install qlmarkdown
 ```
