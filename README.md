@@ -18,6 +18,7 @@
 | Itsycal | https://www.mowglii.com/itsycal<br> (Mac) `brew install --cask itsycal` | 👍 | |
 | Karabiner | https://pqrs.org/osx/karabiner<br> (Mac) `brew install --cask karabiner-elements` | 👍 | |
 | KeePassXC | https://keepassxc.org<br> (Mac) `brew install --cask keepassxc`<br> (Windows) `choco install keepassxc` | 👍 | 👍 |
+| LICEcap | http://www.cockos.com/licecap<br> (Mac) `brew install licecap` | 👍 | 👍 |
 | Magnet | http://magnet.crowdcafe.com<br> (Mac) App Store | 👍 | |
 | Notion | https://notion.com<br> (Mac) `brew install --cask notion` | 👍 | 👍 |
 | Ring | https://ring.com<br> (Windows) App Store | 👍 | 👍 |
@@ -61,7 +62,6 @@
     * Seti UI - https://atom.io/themes/seti-ui
     * Seti Synatx - https://atom.io/themes/seti-syntax
 * GitHub - http://mac.github.com/ http://windows.github.com
-* LICEcap - http://www.cockos.com/licecap/
 * Sublime Text 3.X - http://www.sublimetext.com/3 (Portable)
     * Package Control - https://sublime.wbond.net/installation
     * Pretty JSON - https://sublime.wbond.net/packages/Pretty%20JSON
