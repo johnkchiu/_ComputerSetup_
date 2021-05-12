@@ -81,6 +81,8 @@ sdk install kotlin
 brew install kubectl
 brew install helm
 brew install minikube
+# (for fish)
+fisher add evanlucas/fish-kubectl-completions
 ```
 
 ### mysql
