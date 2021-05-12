@@ -76,6 +76,13 @@ sdk install groovy
 sdk install kotlin
 ```
 
+### kubernetes / helm / minicube
+```bash
+brew install kubectl
+brew install helm
+brew install minikube
+```
+
 ### mysql
 ```bash
 brew install mysql
