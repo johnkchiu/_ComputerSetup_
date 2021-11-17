@@ -4,7 +4,10 @@
 ```shell
 sudo apt-get install fish
 chsh -s $(which fish)
-
+# install fisher + fzf
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+sudo apt-get install fzf
+fisher install jethrokuan/fzf
 ```
 
 # mount nfs
