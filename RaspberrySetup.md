@@ -10,7 +10,7 @@ sudo apt-get install fzf
 fisher install jethrokuan/fzf
 ```
 
-# mount nfs
+## mount nfs
 ```shell
 # manually
 sudo mkdir /var/backups
@@ -64,6 +64,13 @@ sudo raspi-config
 # enable "Interfacing Options" -> "VNC" 
 # set "Advanced Options" -> "Resolution" to "1920x1080"
 # reboot
+```
+
+## dig
+```shell
+sudo apt-get install dnsutils
+# check for external ip
+dig +short myip.opendns.com @resolver1.opendns.com
 ```
 
 ## zsh / oh-my-zsh
