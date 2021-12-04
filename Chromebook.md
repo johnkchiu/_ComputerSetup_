@@ -10,6 +10,22 @@ sudo apt-get install fzf
 fisher install jethrokuan/fzf
 ```
 
+### java / scala / sbt / gradle / groovy / kotlin
+```bash
+# install zip
+sudo apt-get install zip
+# install sdkman + modify .bashrc/.zshrc
+curl -s "https://get.sdkman.io" | bash
+# (for fish)
+fisher install reitzig/sdkman-for-fish
+# install java
+sdk install java
+# install gradle
+sdk install gradle
+# install kotlin
+sdk install kotlin
+```
+
 ## Visual Studio Code
 ```shell
 sudo apt-get update

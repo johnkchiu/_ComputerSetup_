@@ -61,7 +61,7 @@ defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 # install sdkman + modify .bashrc/.zshrc
 curl -s "https://get.sdkman.io" | bash
 # (for fish)
-fisher add reitzig/sdkman-for-fish
+fisher install reitzig/sdkman-for-fish
 # install java
 sdk install java
 # install gradle
