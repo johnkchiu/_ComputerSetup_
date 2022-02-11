@@ -4,24 +4,31 @@
 ```shell
 sudo apt-get install fish
 chsh -s $(which fish)
-# install fisher + fzf
+# install fisher + fzf (using fish shell)
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 sudo apt-get install fzf
 fisher install jethrokuan/fzf
 ```
 
-## mount nfs
+## mount nfs / samba
 ```shell
-# manually
+# manually for nfs
 sudo mkdir /var/backups
 sudo mount -t nfs 10.10.0.10:/backups /var/backups
 
-# automatically
-sudo mkdir /var/backups
+# automatically for nfs
+sudo mkdir /var/folderName
 sudo vi /etc/fstab
-# <file system>       <dir>         <type>   <options>   <dump> <pass>
-# 10.10.0.10:/backups /var/backups  nfs      defaults    0      0\
-sudo mount /var/backups
+# <file system> <dir> <type> <options> <dump> <pass>
+# 10.10.0.10:/folderName /var/folderName nfs defaults 0 0
+sudo mount -a
+
+# automatically for samba/cifs
+sudo mkdir /var/folderName
+sudo vi /etc/fstab
+# <file system> <dir> <type> <options> <dump> <pass>
+# //10.10.0.10/folderName /mnt/folderName cifs _netdev,guest,vers=1.0 0 0
+sudo mount -a
 ```
 
 ## openvpn
