@@ -25,13 +25,9 @@ sudo ln -s "/mnt/c/Users/$USER/AppData/Local/Programs/Microsoft VS Code/Code.exe
 ## Ubuntu on Windows Subsystem for Linux (WSL 2)
 
 ### Ubuntu Install
-1. Open PowerShell as an Administrator and run:
-    ```
-    dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-    dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-    wsl --set-default-version 2
-    ```
-1. Install Ubuntu via [Windows Store](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+```
+wsl --install
+```
 
 ### Ubuntu update / upgrade
 ```
@@ -50,7 +46,7 @@ sudo apt-get install fish
 # install fisher (package manager)
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 sudo apt install fzf
-fisher add jethrokuan/fzf
+fisher install jethrokuan/fzf
 # change default shell
 chsh -s /usr/bin/fish
 ```
@@ -60,7 +56,7 @@ chsh -s /usr/bin/fish
 # requires zip
 sudo apt-get install zip unzip
 # install sdkman for fish
-fisher add reitzig/sdkman-for-fish@v1.4.0
+fisher install reitzig/sdkman-for-fish@v1.4.0
 # install java (will prompt to install sdkman)
 sdk install java
 ```
