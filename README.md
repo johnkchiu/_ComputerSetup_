@@ -12,16 +12,15 @@
 | Dropbox | https://www.dropbox.com | 👍 | 👍 |
 | Evernote | https://evernote.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | Etcher | https://etcher.io<br> (Mac) `brew install --cask balenaetcher`<br> (Windows) `choco install etcher` | 👍 | 👍 |
-| Google Chrome | http://www.google.com/chrome | 👍 | 👍 |
-| Google Drive | http://www.google.com/drive<br> - "Backup and Sync" for personal account<br> - "Drive File Stream" for work account | 👍 | 👍 |
+| Google Chrome | http://www.google.com/chrome (Windows) `winget install --id Google.Chrome` | 👍 | 👍 |
+| Google Drive | http://www.google.com/drive<br> (Windows) `winget install --id Google.Drive` | 👍 | 👍 |
 | Irvue | http://irvue.tumblr.com<br> (Mac) App Store | 👍 | |
 | Itsycal | https://www.mowglii.com/itsycal<br> (Mac) `brew install --cask itsycal` | 👍 | |
 | Karabiner | https://pqrs.org/osx/karabiner<br> (Mac) `brew install --cask karabiner-elements` | 👍 | |
-| KeePassXC | https://keepassxc.org<br> (Mac) `brew install --cask keepassxc`<br> (Windows) `choco install keepassxc` | 👍 | 👍 |
+| KeePassXC | https://keepassxc.org<br> (Mac) `brew install --cask keepassxc`<br> (Windows) `winget install --id KeePassXCTeam.KeePassXC` | 👍 | 👍 |
 | LICEcap | http://www.cockos.com/licecap<br> (Mac) `brew install licecap` | 👍 | 👍 |
 | Magnet | http://magnet.crowdcafe.com<br> (Mac) App Store | 👍 | |
 | Notion | https://notion.com<br> (Mac) `brew install --cask notion` | 👍 | 👍 |
-| Ring | https://ring.com<br> (Windows) App Store | 👍 | 👍 |
 | Slack | https://slack.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | WhatsApp | https://www.whatsapp.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 
@@ -39,7 +38,7 @@
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> [See additional setup for IntelliJ IDEA](IntelliJIDEASetup.md)| 👍 | 👍 |
 | P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br> (Mac) `brew install --cask p4v` | 👍 | 👍 |
 | SourceTree | http://www.sourcetreeapp.com<br> (Mac) `brew install --cask sourcetree` | 👍 | 👍 |
-| Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)<br> - Encode Decode (https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)<br> - JSON Tools (https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)<br> (Mac) `brew install --cask visual-studio-code`<br> (Windows) `choco install vscode`<br> (Note: Sync via Github) | 👍 | 👍 |
+| Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)<br> - Encode Decode (https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)<br> - JSON Tools (https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)<br> (Mac) `brew install --cask visual-studio-code`<br> (Windows) `winget install --id Microsoft.VisualStudioCode`<br> (Note: Sync via Github) | 👍 | 👍 |
 
 # OLD SECTION 👇
 
