@@ -4,7 +4,7 @@
 ### Chocolatey
 ```shell
 # Install via Windows PowerShell as Admin
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
 
 ### Android
@@ -15,11 +15,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ## Install Windows Subsystem for Linux (WSL)
 * https://docs.microsoft.com/en-us/windows/wsl/install-win10
-```
-
-### Visual Studio Code (cli)
-```shell
-sudo ln -s "/mnt/c/Users/$USER/AppData/Local/Programs/Microsoft VS Code/Code.exe" /usr/local/bin/code
 ```
 
 ## Ubuntu on Windows Subsystem for Linux (WSL 2)
@@ -44,6 +39,7 @@ sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt-get update
 sudo apt-get install fish
 # install fisher (package manager)
+fish
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 sudo apt install fzf
 fisher install jethrokuan/fzf
@@ -64,19 +60,6 @@ sdk install java
 ### git
 ```shell
 sudo apt install git
-```
-
-### zsh + oh-my-zsh + antigen
-```shell
-# zsh
-sudo apt-get install zsh
-
-# oh-my-zsh - http://ohmyz.sh/
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# antigen
-curl -L git.io/antigen > .antigen.zsh
-# Setup .zshrc, .antigenrc, .personal, etc
 ```
 
 ### node.js / npm / nvm

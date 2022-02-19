@@ -44,30 +44,6 @@
 
 ## Windows
 * 7-Zip - http://www.7-zip.org
-* Bash on Ubuntu - https://msdn.microsoft.com/commandline/wsl/install_guide
-* ConEmu - http://sourceforge.net/projects/conemu (Portable) (Google Drive)
 * Greenshot
-* Notepad++ - (Portable)
 * WinMerge -
 * Zeal - http://zealdocs.org
-
-
-## Windows + Mac
-* Atom - https://atom.io
-    * EditorConfig - https://atom.io/packages/editorconfig
-    * atom-beautify - https://atom.io/packages/atom-beautify
-    * Pretty JSON - https://atom.io/packages/pretty-json
-    * Highlight Selected - https://atom.io/packages/highlight-selected
-    * Seti UI - https://atom.io/themes/seti-ui
-    * Seti Synatx - https://atom.io/themes/seti-syntax
-* GitHub - http://mac.github.com/ http://windows.github.com
-* Sublime Text 3.X - http://www.sublimetext.com/3 (Portable)
-    * Package Control - https://sublime.wbond.net/installation
-    * Pretty JSON - https://sublime.wbond.net/packages/Pretty%20JSON
-    * Markdown Preview - https://sublime.wbond.net/packages/Markdown%20Preview
-    * Indent XML - https://sublime.wbond.net/packages/Indent%20XML
-* Eclipse - https://www.eclipse.org/downloads/
-    * eclipse-ui-theme - https://github.com/guari/eclipse-ui-theme
-    * Eclipse Color Theme - http://eclipsecolorthemes.org
-    * MoreUnit - http://moreunit.sourceforge.net
-    * EclEmma - http://www.eclemma.org
