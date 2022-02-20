@@ -20,7 +20,8 @@
 | KeePassXC | https://keepassxc.org<br> (Mac) `brew install --cask keepassxc`<br> (Windows) `winget install --id KeePassXCTeam.KeePassXC` | 👍 | 👍 |
 | LICEcap | http://www.cockos.com/licecap<br> (Mac) `brew install licecap` | 👍 | 👍 |
 | Magnet | http://magnet.crowdcafe.com<br> (Mac) App Store | 👍 | |
-| Notion | https://notion.com<br> (Mac) `brew install --cask notion` | 👍 | 👍 |
+| Microsoft PowerToys | https://docs.microsoft.com/en-us/windows/powertoys/<br> (Windows) `` | | 👍 |
+| Notion | https://notion.com<br> (Mac) `brew install --cask notion`<br> (Windows) `winget install --id Notion.Notion` | 👍 | 👍 |
 | Slack | https://slack.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | WhatsApp | https://www.whatsapp.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 
