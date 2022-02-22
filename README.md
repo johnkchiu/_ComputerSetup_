@@ -7,8 +7,10 @@
 ## General
 | Software | Info | Mac | Windows |
 |---|---|---|---|
+
+| 7-Zip | https://www.7-zip.org<br> `winget install --id 7zip.7zip` | | 👍 |
 | AppCleaner | http://freemacsoft.net/appcleaner | 👍 | |
-| Ariel Screen Screensaver | https://github.com/JohnCoates/Aerial<br>`brew install --cask aerial` | 👍 | |
+| Ariel Screen Screensaver | https://github.com/JohnCoates/Aerial<br> `brew install --cask aerial` | 👍 | |
 | Dropbox | https://www.dropbox.com | 👍 | 👍 |
 | Evernote | https://evernote.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | Etcher | https://etcher.io<br> (Mac) `brew install --cask balenaetcher`<br> (Windows) `choco install etcher` | 👍 | 👍 |
