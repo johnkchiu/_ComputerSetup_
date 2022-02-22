@@ -7,7 +7,6 @@
 ## General
 | Software | Info | Mac | Windows |
 |---|---|---|---|
-
 | 7-Zip | https://www.7-zip.org<br> `winget install --id 7zip.7zip` | | 👍 |
 | AppCleaner | http://freemacsoft.net/appcleaner | 👍 | |
 | Ariel Screen Screensaver | https://github.com/JohnCoates/Aerial<br> `brew install --cask aerial` | 👍 | |
