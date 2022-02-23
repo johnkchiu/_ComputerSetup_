@@ -79,3 +79,11 @@ vi ~/.zshrc
 # install latest node.js
 nvm install node
 ```
+
+
+### python
+```shell
+# python3 already installed
+sudo apt install -y python3-pip
+fish_add_path -m ~/.local/bin
+```
