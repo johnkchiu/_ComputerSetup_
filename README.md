@@ -13,7 +13,7 @@
 | Dropbox | https://www.dropbox.com | 👍 | 👍 |
 | Evernote | https://evernote.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | Etcher | https://etcher.io<br> (Mac) `brew install --cask balenaetcher`<br> (Windows) `choco install etcher` | 👍 | 👍 |
-| Google Chrome | http://www.google.com/chrome (Windows) `winget install --id Google.Chrome` | 👍 | 👍 |
+| Google Chrome | http://www.google.com/chrome<br> (Windows) `winget install --id Google.Chrome` | 👍 | 👍 |
 | Google Drive | http://www.google.com/drive<br> (Windows) `winget install --id Google.Drive` | 👍 | 👍 |
 | Irvue | http://irvue.tumblr.com<br> (Mac) App Store | 👍 | |
 | Itsycal | https://www.mowglii.com/itsycal<br> (Mac) `brew install --cask itsycal` | 👍 | |
@@ -21,10 +21,10 @@
 | KeePassXC | https://keepassxc.org<br> (Mac) `brew install --cask keepassxc`<br> (Windows) `winget install --id KeePassXCTeam.KeePassXC` | 👍 | 👍 |
 | LICEcap | http://www.cockos.com/licecap<br> (Mac) `brew install licecap` | 👍 | 👍 |
 | Magnet | http://magnet.crowdcafe.com<br> (Mac) App Store | 👍 | |
-| Microsoft PowerToys | https://docs.microsoft.com/en-us/windows/powertoys/<br> (Windows) `` | | 👍 |
+| Microsoft PowerToys | https://docs.microsoft.com/en-us/windows/powertoys/<br> (Windows) `winget install --id XP89DCGQ3K6VLD` | | 👍 |
 | Notion | https://notion.com<br> (Mac) `brew install --cask notion`<br> (Windows) `winget install --id Notion.Notion` | 👍 | 👍 |
 | Slack | https://slack.com<br> (Mac/Windows) App Store | 👍 | 👍 |
-| WhatsApp | https://www.whatsapp.com<br> (Mac/Windows) App Store | 👍 | 👍 |
+| WhatsApp | https://www.whatsapp.com<br> (Mac) App Store<br> (Windows) `winget install --id WhatsApp.WhatsApp` | 👍 | 👍 |
 
 ## Development
 | Software | Info | Mac | Windows |
