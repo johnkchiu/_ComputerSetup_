@@ -2,10 +2,21 @@
 ## Windows Apps
 
 ### Chocolatey
+
 ```bash
 # Install via Windows PowerShell as Admin
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
+
+### Windows PowerShell
+```bash
+# run PowerShell as admin
+# install starship
+choco install starship
+# setup PowerShell config
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+code $PROFILE
+# add 'Invoke-Expression (&starship init powershell)'
 
 
 ## Ubuntu on Windows Subsystem for Linux (WSL 2)
@@ -29,6 +40,8 @@ do-release-upgrade -d
 sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt-get update
 sudo apt-get install fish
+# install starship
+curl -sS https://starship.rs/install.sh | sh
 # install fisher (package manager)
 fish
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
