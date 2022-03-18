@@ -2,15 +2,17 @@
 https://github.com/RMerl/asuswrt-merlin
 
 ## General Setup
-* Force AiMesh Wired (Network Map -> AiMesh Node -> (Select Node) -> More COnfig -> Connection Priority => Ethernet)
-* Enable SSH (Administration -> System -> Enable SSH => Yes)
+* Force AiMesh Wired (Network Map -> AiMesh Node -> (Select Node) -> More Config -> Connection Priority => Ethernet)
+* Enable SSH (Administration -> System -> Enable SSH => LAN Only)
 * Set Timezone (Administration -> System -> Time Zone)
-* Custom DNS via Google DNS (WAN -> Internet Connection -> WAN DNS Setting)
+* Custom DNS (WAN -> Internet Connection -> WAN DNS Setting)
   * Connect to DNS Server automatically => No
-  * DNS Server1 => 8.8.8.8
-  * DNS Server => 8.8.4.4
+  * DNS Server1 => 1.1.1.1
+  * DNS Server3 => 8.8.8.8
   * DNS Privacy Protocol => DNS-over-TLS (DOT)
-  * Preset servers: Google 8.8.8.8, Google 8.8.4.4
+  * Preset servers: Cloudflare 1 (1.1.1.1 cloudfare-dns.com), Google 1 (8.8.8.8 dns.google)
+* Set Router Domain Name (LAN -> LAN IP -> <model>'s Domain Name)
+
 
 ### Format USB Drive
 
@@ -20,6 +22,10 @@ See [Disk formatting](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Disk-forma
 * Greater than 2 TB drive
   1. Plug USB drive to Linux computer (e.g Raspberry Pi), and `fdisk` to GPT partition like [Repartition disk](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Disk-formatting#7-repartition-disk) instructions.
   2. Plug USB drive to router, and format like [Format and adjust filesystem features](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Disk-formatting#8-format-and-adjust-filesystem-features) instructions.
+
+### Create Swap file
+
+Use [amtm](https://diversion.ch/amtm.html).
 
 ### Entware
 
@@ -41,23 +47,24 @@ dbclient -y -i ~/.ssh/id_rsa $*
 ```bash
 # install via entware
 opkg install git
+opkg install git-http
 # create ssh keys
-dropbearkey -t rsa -f "~/.ssh/id_rsa"
-dropbearkey -y -f "~/.ssh/id_rsa" | grep "^ssh-rsa " > "~/.ssh/id_rsa.pub"
+dropbearkey -t rsa -f ~/.ssh/id_rsa
+dropbearkey -y -f ~/.ssh/id_rsa | grep "^ssh-rsa " > ~/.ssh/id_rsa.pub
 # export GIT_SSH
 export GIT_SSH=$HOME/.gitssh.sh
 ```
 
 ### Fish shell
-Create `/jffs/configs/profile.add`
-```bash
-[ -f /opt/bin/fish ] && exec /opt/bin/fish
-```
-
 ```bash
 # install fish
 opkg install fish bc
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+```
+
+Create `/jffs/configs/profile.add`
+```bash
+[ -f /opt/bin/fish ] && exec /opt/bin/fish
 ```
 
 ### Transmission
@@ -85,5 +92,5 @@ iptables -I INPUT -p udp --destination-port 51413 -j ACCEPT
 
 ### Duck DNS
 * Enable custom scripts (Administration -> System -> Enable JFFS custom scripts and configs	=> Yes)
-* Create `/jffs/scripts/ddns-start` using sample [Duck DNS Sample script](https://github.com/RMerl/asuswrt-merlin/wiki/DDNS-Sample-Scripts#duck-dns)
-* Set DDNS to custom (WAN -> DDNS -> DDNS Service -> Server => Customer)
+* Create `/jffs/scripts/ddns-start` using sample [Duck DNS Sample script](https://github.com/RMerl/asuswrt-merlin.ng/wiki/DDNS-Sample-Scripts#duck-dns)
+* Set DDNS to custom (WAN -> DDNS -> DDNS Service -> Server => Custom)
