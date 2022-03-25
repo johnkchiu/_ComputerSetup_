@@ -40,6 +40,10 @@ do-release-upgrade -d
 sudo apt-add-repository ppa:fish-shell/release-3
 sudo apt-get update
 sudo apt-get install fish
+# install peco
+sudo apt install peco
+# install exa (via CRust's cargo)
+cargo install exa
 # install starship
 curl -sS https://starship.rs/install.sh | sh
 # install fisher (package manager)
@@ -91,4 +95,12 @@ nvm install node
 # python3 already installed
 sudo apt install -y python3-pip
 fish_add_path -m ~/.local/bin
+```
+
+### rust
+```bash
+# install rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# for fish shell, add:
+# fish_add_path $HOME/.cargo/bin
 ```
