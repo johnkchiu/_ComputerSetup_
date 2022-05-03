@@ -25,7 +25,7 @@ ln -s $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_do
 ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
 ```
 
-### fish + fzf
+### fish + fzf + exa
 ```bash
 brew install fish
 sudo vi /etc/shells
@@ -35,6 +35,8 @@ chsh -s /usr/local/bin/fish
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 brew install fzf
 fisher install jethrokuan/fzf
+# install exa
+brew install exa
 ```
 
 ### Go lang
