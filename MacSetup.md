@@ -25,7 +25,7 @@ ln -s $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_do
 ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
 ```
 
-### fish + fzf + exa
+### fish + fzf + exa + starship
 ```bash
 brew install fish
 sudo vi /etc/shells
@@ -37,6 +37,8 @@ brew install fzf
 fisher install jethrokuan/fzf
 # install exa
 brew install exa
+# install starship
+curl -sS https://starship.rs/install.sh | sh
 ```
 
 ### Go lang
