@@ -45,6 +45,7 @@ sudo apt-get install fish
 # install peco
 sudo apt install peco
 # install exa (via CRust's cargo)
+sudo apt install cargo
 cargo install exa
 # install starship
 curl -sS https://starship.rs/install.sh | sh
