@@ -17,13 +17,15 @@ choco install starship
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 code $PROFILE
 # add 'Invoke-Expression (&starship init powershell)'
-
+```
 
 ## Ubuntu on Windows Subsystem for Linux (WSL 2)
 
 ### Ubuntu Install
+# Install via Windows PowerShell as Admin
 ```bash
 wsl --install
+# Needs to restart
 ```
 
 ### Ubuntu update / upgrade
