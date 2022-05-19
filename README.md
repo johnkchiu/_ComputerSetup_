@@ -24,6 +24,7 @@
 | Microsoft PowerToys | https://docs.microsoft.com/en-us/windows/powertoys/<br> (Windows) `winget install --id XP89DCGQ3K6VLD` | | 👍 |
 | Notion | https://notion.com<br> (Mac) `brew install --cask notion`<br> (Windows) `winget install --id Notion.Notion` | 👍 | 👍 |
 | Slack | https://slack.com<br> (Mac/Windows) App Store | 👍 | 👍 |
+| Wally - Unsplash Wallpapers | Windows App Store<br> (Windows) `winget install --id 9NKCCCWD3RZ0` | | 👍 |
 | WhatsApp | https://www.whatsapp.com<br> (Mac) App Store<br> (Windows) `winget install --id WhatsApp.WhatsApp` | 👍 | 👍 |
 
 ## Development
@@ -35,17 +36,11 @@
 | Docker | https://www.docker.com<br> (Mac) [See instructions](MacSetup.md#docker) | 👍 | 👍 |
 | ~~Font (Hack)~~ | https://sourcefoundry.org/hack | 👍 | 👍 |
 | ~~Font (Fira Code)~~ | https://github.com/tonsky/FiraCode | 👍 | 👍 |
-| Font (Cascadia Code) | https://github.com/microsoft/cascadia-code)<br> (Mac) `brew tap homebrew/cask-fonts && brew install --cask font-cascadia`<br> (Windows) `choco install cascadiacode` | 👍 | 👍 |
+| ~~Font (Cascadia Code)~~ | https://github.com/microsoft/cascadia-code)<br> (Mac) `brew tap homebrew/cask-fonts && brew install --cask font-cascadia`<br> (Windows) `choco install cascadiacode` | 👍 | 👍 |
+| Nerd Font (Caskaydia Cove Nerd Font) | https://www.nerdfonts.com/font-downloads<br> (Windows) Download and install. | 👍 | 👍 |
 | iTerm2 | http://www.iterm2.com<br> (Mac) [See instructions](MacSetup.md##iterm2)<br> - iterm2-color-schemes (http://iterm2colorschemes.com) | 👍 | |
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> [See additional setup for IntelliJ IDEA](IntelliJIDEASetup.md)| 👍 | 👍 |
 | P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br> (Mac) `brew install --cask p4v` | 👍 | 👍 |
-| SourceTree | http://www.sourcetreeapp.com<br> (Mac) `brew install --cask sourcetree` | 👍 | 👍 |
-| Visual Studio Code | https://code.visualstudio.com<br> - Beautify (https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)<br> - change-case (https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)<br> - Material Theme (https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)<br> - Encode Decode (https://marketplace.visualstudio.com/items?itemName=mitchdenny.ecdc)<br> - JSON Tools (https://marketplace.visualstudio.com/items?itemName=eriklynd.json-tools)<br> (Mac) `brew install --cask visual-studio-code`<br> (Windows) `winget install --id Microsoft.VisualStudioCode`<br> (Note: Sync via Github) | 👍 | 👍 |
+| SourceTree | http://www.sourcetreeapp.com<br> (Mac) `brew install --cask sourcetree`<br> (Windows) `winget install --id Atlassian.Sourcetree` | 👍 | 👍 |
+| Visual Studio Code | https://code.visualstudio.com<br> (Mac) `brew install --cask visual-studio-code`<br> (Windows) `winget install --id Microsoft.VisualStudioCode`<br> (Note: Sync via Github) | 👍 | 👍 |
 
-# OLD SECTION 👇
-
-## Windows
-* 7-Zip - http://www.7-zip.org
-* Greenshot
-* WinMerge -
-* Zeal - http://zealdocs.org

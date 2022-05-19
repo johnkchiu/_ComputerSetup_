@@ -19,6 +19,12 @@ code $PROFILE
 # add 'Invoke-Expression (&starship init powershell)'
 ```
 
+### Git for Windows
+```bash
+winget install --id Git.Git
+```
+
+
 ## Ubuntu on Windows Subsystem for Linux (WSL 2)
 
 ### Ubuntu Install
