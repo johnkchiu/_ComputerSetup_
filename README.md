@@ -23,6 +23,7 @@
 | Magnet | http://magnet.crowdcafe.com<br> (Mac) App Store | 👍 | |
 | Microsoft PowerToys | https://docs.microsoft.com/en-us/windows/powertoys/<br> (Windows) `winget install --id XP89DCGQ3K6VLD` | | 👍 |
 | Notion | https://notion.com<br> (Mac) `brew install --cask notion`<br> (Windows) `winget install --id Notion.Notion` | 👍 | 👍 |
+| SumatraPDF | https://www.sumatrapdfreader.org/<br> (Windows) `winget install --id SumatraPDF.SumatraPDF` | | 👍 |
 | Slack | https://slack.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | Wally - Unsplash Wallpapers | Windows App Store<br> (Windows) `winget install --id 9NKCCCWD3RZ0` | | 👍 |
 | WhatsApp | https://www.whatsapp.com<br> (Mac) App Store<br> (Windows) `winget install --id WhatsApp.WhatsApp` | 👍 | 👍 |
