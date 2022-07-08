@@ -13,21 +13,27 @@ fisher install jethrokuan/fzf
 ## mount nfs / samba
 ```shell
 # manually for nfs
-sudo mkdir /var/backups
-sudo mount -t nfs 10.10.0.10:/backups /var/backups
+sudo mkdir /mnt/Shared
+sudo mount -t nfs 10.10.0.10:/Shared /mnt/Shared
 
 # automatically for nfs
-sudo mkdir /var/folderName
+sudo mkdir /mnt/Shared
 sudo vi /etc/fstab
 # <file system> <dir> <type> <options> <dump> <pass>
-# 10.10.0.10:/folderName /var/folderName nfs defaults 0 0
+# 10.10.0.10:/Shared /mnt/Shared nfs defaults 0 0
 sudo mount -a
 
+# manual mount for samba/cifs
+sudo mkdir /mnt/Shared
+# uid=$(id =u)
+# gid=$(id -g)
+sudo mount -t cifs -o username=user,password=password,uid=1000,gid=1000,file_mode=0777,dir_mode=0777,vers=2.0 //10.10.0.10/Shared /mnt/Shared
+
 # automatically for samba/cifs
-sudo mkdir /var/folderName
+sudo mkdir /mnt/Shared
 sudo vi /etc/fstab
 # <file system> <dir> <type> <options> <dump> <pass>
-# //10.10.0.10/folderName /mnt/folderName cifs _netdev,guest,vers=1.0 0 0
+# //10.10.0.10/Shared /mnt/Shared cifs username=user,password=password,uid=1000,gid=1000,file_mode=0777,dir_mode=0777,vers=2.0 0 0
 sudo mount -a
 ```
 
@@ -55,10 +61,14 @@ sudo apt install transmission-daemon
 # edit configs
 sudo systemctl stop transmission-daemon
 sudo vi /etc/transmission-daemon/settings.json
+# blocklist-url = http://list.iblocklist.com/?list=bt_level1
+# rpc-authentication-required = false
 
-# add permissions
+# add permissions (user == pi)
 sudo usermod -aG debian-transmission pi
 sudo systemctl daemon-reload
+
+# change 
 
 # start
 sudo systemctl start transmission-daemon
@@ -80,10 +90,3 @@ sudo apt-get install dnsutils
 dig +short myip.opendns.com @resolver1.opendns.com
 ```
 
-## zsh / oh-my-zsh
-```shell
-sudo apt-get update # optional
-sudo apt-get install zsh
-chsh -s $(which zsh)
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
