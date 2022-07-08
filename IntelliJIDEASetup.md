@@ -1,5 +1,15 @@
 # Setup for IntelliJ IDEA
 
+## Install
+```bash
+# Windows
+winget install --id JetBrains.IntelliJIDEA.Community
+```
+
+## Sync Settings
+* *File | Manage IDE Settings | Sync Settings to JetBrains Account* (For Ultimate Edition)
+* *File | Manage IDE Settings | Settings Repository...* (For Community Edition) 
+
 ## Preferences
 * *Preferences | Appearance & Behavior | System Settings*
   * Startup/Shutdown | Reopen last project on startup: ❎
@@ -8,9 +18,6 @@
 * *Preferences | Editor | Color Scheme | Color Scheme Font*
   * Scheme: Material Oceanic
   * Use color scheme font instead of the default: ❎
-
-## Sync Settings
-* *File | Manage IDE Settings | Sync Settings to JetBrains Account*
 
 ## Custom VM Options
 Increase memory for the following custom VM options (*Help > Edit Custom VM Options...*)
