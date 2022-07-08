@@ -35,10 +35,7 @@
 | DBeaver | https://dbeaver.io<br> (Mac) `brew install --cask java dbeaver-community` | 👍 | 👍 |
 | DevDocs | https://devdocs.io<br> (Mac) `brew install --cask devdocs` | 👍 | 👍 |
 | Docker | https://www.docker.com<br> (Mac) [See instructions](MacSetup.md#docker) | 👍 | 👍 |
-| ~~Font (Hack)~~ | https://sourcefoundry.org/hack | 👍 | 👍 |
-| ~~Font (Fira Code)~~ | https://github.com/tonsky/FiraCode | 👍 | 👍 |
-| ~~Font (Cascadia Code)~~ | https://github.com/microsoft/cascadia-code)<br> (Mac) `brew tap homebrew/cask-fonts && brew install --cask font-cascadia`<br> (Windows) `choco install cascadiacode` | 👍 | 👍 |
-| Nerd Font (Caskaydia Cove Nerd Font) | https://www.nerdfonts.com/font-downloads<br> (Windows) Download and install. | 👍 | 👍 |
+| Nerd Font (Caskaydia Cove Nerd Font) | https://www.nerdfonts.com/font-downloads<br> (Mac) `brew tap homebrew/cask-fonts && brew install --cask font-caskaydia-cove-nerd-font`<br> (Windows) Download and install. | 👍 | 👍 |
 | iTerm2 | http://www.iterm2.com<br> (Mac) [See instructions](MacSetup.md##iterm2)<br> - iterm2-color-schemes (http://iterm2colorschemes.com) | 👍 | |
 | IntelliJ IDEA | https://www.jetbrains.com/idea<br> [See additional setup for IntelliJ IDEA](IntelliJIDEASetup.md)| 👍 | 👍 |
 | P4Merge | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br> (Mac) `brew install --cask p4v` | 👍 | 👍 |
