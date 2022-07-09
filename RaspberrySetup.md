@@ -8,6 +8,9 @@ chsh -s $(which fish)
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 sudo apt-get install fzf
 fisher install jethrokuan/fzf
+# install starship.rs
+curl -sS https://starship.rs/install.sh | sh
+# add "starship init fish | source" to ~/.config/fish/config.fish
 ```
 
 ## mount nfs / samba
@@ -64,15 +67,10 @@ sudo vi /etc/transmission-daemon/settings.json
 # blocklist-url = http://list.iblocklist.com/?list=bt_level1
 # rpc-authentication-required = false
 
-# add permissions (user == pi)
-sudo usermod -aG debian-transmission pi
+# add permissions
+sudo usermod -aG debian-transmission $USER
 sudo systemctl daemon-reload
-
-# change 
-
-# start
 sudo systemctl start transmission-daemon
-
 ```
 
 ## vnc server (RealVNC)
@@ -90,3 +88,27 @@ sudo apt-get install dnsutils
 dig +short myip.opendns.com @resolver1.opendns.com
 ```
 
+## docker + docker-compose
+```shell
+# install docker
+curl -sSL https://get.docker.com | sh
+sudo usermod -aG docker $USER
+sudo systemctl enable docker
+
+# install docker-compose
+sudo apt-get install libffi-dev libssl-dev
+sudo apt install python3-dev
+sudo apt-get install -y python3 python3-pip
+sudo pip3 install docker-compose
+```
+
+## pi-hole via docker
+```shell
+# install
+git clone https://github.com/pi-hole/docker-pi-hole.git
+cd docker-pi-hole
+cp docker-compose.yml.example docker-compose.yml
+docker-compose up -d
+# get new password
+docker exec -it <container_id> pihole -a -p
+```
