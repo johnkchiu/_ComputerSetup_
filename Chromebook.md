@@ -8,6 +8,8 @@ sudo chsh -s $(which fish) $(whoami)
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 sudo apt-get install fzf
 fisher install jethrokuan/fzf
+# install starship
+curl -sS https://starship.rs/install.sh | sh
 ```
 
 ### java / scala / sbt / gradle / groovy / kotlin
