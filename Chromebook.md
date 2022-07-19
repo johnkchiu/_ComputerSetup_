@@ -8,6 +8,10 @@ sudo chsh -s $(which fish) $(whoami)
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 sudo apt-get install fzf
 fisher install jethrokuan/fzf
+# install starship
+sudo su root
+curl -sS https://starship.rs/install.sh | sh
+# add `starship init fish | source` to ~/.config/fish/config.fish
 ```
 
 ### java / scala / sbt / gradle / groovy / kotlin
@@ -34,7 +38,10 @@ sudo apt-get install -y gnome-keyring
 dpkg --print-architecture
 ```
 
-## KeePassXC
+### Sideload Android Apps
 ```shell
-sudo apt-get install keepassxc
+sudo apt-get install android-tools-adb
+# Open "Developer Android apps" setting, turn on "Enable ADB debugging".  Shutdown and restart.
+# Launch "Files" app, select folder and "Share with Linux".  Enable "Show all Play folders" for Android folder.
+cd /mnt/chromeos/MyFiles
 ```
