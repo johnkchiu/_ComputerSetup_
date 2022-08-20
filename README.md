@@ -31,7 +31,7 @@
 ## Development
 | Software | Info | Mac | Windows |
 |---|---|---|---|
-| Android Studio | https://developer.android.com/studio<br> (Mac) `brew install --cask android-studio` | 👍 | 👍 |
+| Android Studio | https://developer.android.com/studio<br> (Mac) `brew install --cask android-studio`<br> (Windows) `winget install --id Google.AndroidStudio` | 👍 | 👍 |
 | DBeaver | https://dbeaver.io<br> (Mac) `brew install --cask java dbeaver-community` | 👍 | 👍 |
 | DevDocs | https://devdocs.io<br> (Mac) `brew install --cask devdocs` | 👍 | 👍 |
 | Docker | https://www.docker.com<br> (Mac) [See instructions](MacSetup.md#docker) | 👍 | 👍 |
