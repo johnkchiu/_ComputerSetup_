@@ -113,3 +113,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # for fish shell, add:
 # fish_add_path $HOME/.cargo/bin
 ```
+
+### Android
+```bash
+sudo apt-get install android-tools-adb
+```
+
