@@ -15,6 +15,7 @@
 | Etcher | https://etcher.io<br> (Mac) `brew install --cask balenaetcher`<br> (Windows) `choco install etcher` | 👍 | 👍 |
 | Google Chrome | http://www.google.com/chrome<br> (Windows) `winget install --id Google.Chrome` | 👍 | 👍 |
 | Google Drive | http://www.google.com/drive<br> (Windows) `winget install --id Google.Drive` | 👍 | 👍 |
+| IINA | https://iina.io<br> (Mac) `brew install iina` | 👍 | |
 | Irvue | http://irvue.tumblr.com<br> (Mac) App Store | 👍 | |
 | Itsycal | https://www.mowglii.com/itsycal<br> (Mac) `brew install --cask itsycal` | 👍 | |
 | Karabiner | https://pqrs.org/osx/karabiner<br> (Mac) `brew install --cask karabiner-elements` | 👍 | |
