@@ -55,7 +55,7 @@ brew install go
 #install
 brew install iterm2
 # use preferences directory
-defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string ~/iterm2
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string ~/.iterm2
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 # after launch turn on Preferences -> General -> Preferences -> Save changes to folder when iTerm2 quits.
 ```
@@ -158,15 +158,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 # antigen (into home directory) - http://antigen.sharats.me
 curl -L git.io/antigen > ~/antigen.zsh
 # now setup your dotfiles
-```
-
-## Application Setup
-```bash
-# atom commandline
-ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
-
-# sublime commandline
-ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
 ## Environment Setup
