@@ -99,10 +99,10 @@ brew install mysql
 ### node.js / npm / nvm
 ```bash
 # install nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 # (for fish)
-fisher add FabioAntunes/fish-nvm
-fisher add edc/bass
+fisher install FabioAntunes/fish-nvm
+fisher install edc/bass
 # install latest node.js
 nvm install node
 ```
