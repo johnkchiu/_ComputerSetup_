@@ -111,4 +111,7 @@ cp docker-compose.yml.example docker-compose.yml
 docker-compose up -d
 # get new password
 docker exec -it <container_id> pihole -a -p
+# upgrade pi-hole
+docker pull pihole/pihole
+docker-compose up -d
 ```
