@@ -1,19 +1,40 @@
 # Setup for asuswrt-merlin
 https://github.com/RMerl/asuswrt-merlin
 
-## General Setup
-* Router Host Name (LAN -> LAN IP -> Host Name)
-* Router IP Address (LAN -> LAN IP -> IP Address => 192.168.1.1)
-* DHCP IP Pool Address (LAN -> DHCP Server -> IP Pool Starting Address => 192.168.1.21)
-* Ethernet Backhual Mode (AiMesh -> System Settings -> Ethernet Backhual Mode => On)
-* Enable SSH (Administration -> System -> Enable SSH => LAN Only)
-* Set Timezone (Administration -> System -> Time Zone)
-* Custom DNS (WAN -> Internet Connection -> WAN DNS Setting)
-  * DNS Server -> Assign:
-    * DNS Server1 => 1.1.1.1
-    * DNS Server3 => 8.8.8.8
-  * DNS Privacy Protocol => DNS-over-TLS (DOT)
-  * Preset servers: Cloudflare 1 (1.1.1.1 cloudfare-dns.com), Google 1 (8.8.8.8 dns.google)
+## Setup Steps
+1. LAN
+    * Router Host Name (LAN -> LAN IP -> Host Name)
+    * Router IP Address (LAN -> LAN IP -> IP Address => 192.168.1.1)
+    * DHCP IP Pool Address (LAN -> DHCP Server -> IP Pool Starting Address => 192.168.1.21)
+    * LAN Manual Assignment
+    * DNS Director
+1. AiMesh
+    * Ethernet Backhual Mode (AiMesh -> System Settings -> Ethernet Backhual Mode => On)
+1. Guest Network
+1. Administration
+    * Enable custom scripts (Administration -> System -> Enable JFFS custom scripts and configs	=> Yes)
+    * Set Timezone (Administration -> System -> Time Zone)
+    * Enable SSH (Administration -> System -> Enable SSH => LAN Only)
+1. WAN
+    * Custom DNS (WAN -> Internet Connection -> WAN DNS Setting)
+      * DNS Server -> Assign:
+        * DNS Server1 => 1.1.1.1
+        * DNS Server3 => 8.8.8.8
+      * DNS Privacy Protocol => DNS-over-TLS (DOT)
+      * Preset servers: Cloudflare 1 (1.1.1.1 cloudfare-dns.com), Google 1 (8.8.8.8 dns.google)
+1. USB Application
+    * Samba (USB Application -> Servers Center -> Network Place (Samba) Share / Cloud Disk)
+      * Enable Shared => On
+      * Simpler share naming (without the disk name) => Yes
+1. [amtm](https://diversion.ch/amtm.html)
+    * Create swap file
+    * Install Entware
+1. Duck DNS
+    * Create `/jffs/scripts/ddns-start` using sample [Duck DNS Sample script](https://github.com/RMerl/asuswrt-merlin.ng/wiki/DDNS-Sample-Scripts#duck-dns)
+    * Set DDNS to custom (WAN -> DDNS -> DDNS Service)
+      *  Enable the DDNS Client	=> Yes
+      *  Server => Custom
+      *  Host Name => *(fill in)*
 
 ### Format USB Drive
 
@@ -23,18 +44,6 @@ See [Disk formatting](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Disk-forma
 * Greater than 2 TB drive
   1. Plug USB drive to Linux computer (e.g Raspberry Pi), and `fdisk` to GPT partition like [Repartition disk](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Disk-formatting#7-repartition-disk) instructions.
   2. Plug USB drive to router, and format like [Format and adjust filesystem features](https://github.com/RMerl/asuswrt-merlin.ng/wiki/Disk-formatting#8-format-and-adjust-filesystem-features) instructions.
-
-### USB Application
-
-* Samba - Simpler share naming (USB Application -> Network Place (Samba) -> Simpler share naming ==> Yes )
-
-### Create Swap file
-
-Use [amtm](https://diversion.ch/amtm.html).
-
-### Entware
-
-Use [amtm](https://diversion.ch/amtm.html).
 
 ### Diversion, uiDivStats
 
@@ -94,14 +103,3 @@ iptables -I INPUT -p udp --destination-port 51413 -j ACCEPT
 /jffs/scripts/firewall-start
 /opt/etc/init.d/S88transmission start
 ```
-
-### Duck DNS
-* Enable custom scripts (Administration -> System -> Enable JFFS custom scripts and configs	=> Yes)
-* Create `/jffs/scripts/ddns-start` using sample [Duck DNS Sample script](https://github.com/RMerl/asuswrt-merlin.ng/wiki/DDNS-Sample-Scripts#duck-dns)
-* Set DDNS to custom (WAN -> DDNS -> DDNS Service -> Server => Custom)
-
-### Enable Samba Share / Cloud Disk
-* USB Application -> Network Place (Samba) Share / Cloud Disk:
-  * Enable Shared => On
-  * Turn off Simpler share naming *(without the disk name)* => Yes
-	
