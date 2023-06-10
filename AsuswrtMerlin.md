@@ -6,6 +6,7 @@ https://github.com/RMerl/asuswrt-merlin
     * Router Host Name (LAN -> LAN IP -> Host Name)
     * Router IP Address (LAN -> LAN IP -> IP Address => 192.168.1.1)
     * DHCP IP Pool Address (LAN -> DHCP Server -> IP Pool Starting Address => 192.168.1.21)
+    * Advertise router's IP (LAN -> DHCP Server -> Advertise router's IP in addition to user-specified DNS => No)
     * LAN Manual Assignment
     * DNS Director
 1. AiMesh
@@ -14,6 +15,7 @@ https://github.com/RMerl/asuswrt-merlin
 1. Administration
     * Enable custom scripts (Administration -> System -> Enable JFFS custom scripts and configs	=> Yes)
     * Set Timezone (Administration -> System -> Time Zone)
+    * Auto Logout (Administration -> System -> Auto Logout => 10)
     * Enable SSH (Administration -> System -> Enable SSH => LAN Only)
 1. WAN
     * Custom DNS (WAN -> Internet Connection -> WAN DNS Setting)
