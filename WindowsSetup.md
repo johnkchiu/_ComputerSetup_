@@ -84,17 +84,10 @@ sudo apt install git
 ### node.js / npm / nvm
 ```bash
 # install nvm
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
-
-# setup nvm path
-vi ~/.zshrc
-# Add the follow to end
-# -------------------------
-# export NVM_DIR="$HOME/.nvm"
-# [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-# nvm use --silent node
-# -------------------------
-
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+# (for fish)
+fisher install FabioAntunes/fish-nvm
+fisher install edc/bass
 # install latest node.js
 nvm install node
 ```
