@@ -1,18 +1,12 @@
 # Setup for Windows
 ## Windows Apps
 
-### Chocolatey
-
-```bash
-# Install via Windows PowerShell as Admin
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-```
-
 ### Windows PowerShell
 ```bash
-# run PowerShell as admin
+# install latest PowerShell
+winget install -id Microsoft.PowerShell
 # install starship
-choco install starship
+winget install --id Starship.Starship
 # setup PowerShell config
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 code $PROFILE
@@ -23,7 +17,6 @@ code $PROFILE
 ```bash
 winget install --id Git.Git
 ```
-
 
 ## Ubuntu on Windows Subsystem for Linux (WSL 2)
 
