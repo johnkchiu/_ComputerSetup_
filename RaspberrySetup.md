@@ -66,6 +66,7 @@ sudo systemctl stop transmission-daemon
 sudo vi /etc/transmission-daemon/settings.json
 # blocklist-url = http://list.iblocklist.com/?list=bt_level1
 # rpc-authentication-required = false
+# rpc-whitelist-enabled = false
 
 # add permissions
 sudo usermod -aG debian-transmission $USER
