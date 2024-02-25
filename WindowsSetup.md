@@ -4,7 +4,7 @@
 ### Windows PowerShell
 ```bash
 # install latest PowerShell
-winget install -id Microsoft.PowerShell
+winget install --id Microsoft.PowerShell
 # install starship
 winget install --id Starship.Starship
 # setup PowerShell config
