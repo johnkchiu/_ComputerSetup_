@@ -11,7 +11,6 @@
 | AppCleaner | http://freemacsoft.net/appcleaner | 👍 | |
 | Ariel Screen Screensaver | https://github.com/JohnCoates/Aerial<br> `brew install --cask aerial` | 👍 | |
 | Dropbox | https://www.dropbox.com | 👍 | 👍 |
-| Evernote | https://evernote.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | Etcher | https://etcher.io<br> (Mac) `brew install --cask balenaetcher`<br> (Windows) `choco install etcher` | 👍 | 👍 |
 | Google Chrome | http://www.google.com/chrome<br> (Windows) `winget install --id Google.Chrome` | 👍 | 👍 |
 | Google Drive | http://www.google.com/drive<br> (Windows) `winget install --id Google.Drive` | 👍 | 👍 |
@@ -27,7 +26,7 @@
 | SumatraPDF | https://www.sumatrapdfreader.org/<br> (Windows) `winget install --id SumatraPDF.SumatraPDF` | | 👍 |
 | Slack | https://slack.com<br> (Mac/Windows) App Store | 👍 | 👍 |
 | Wally - Unsplash Wallpapers | Windows App Store<br> (Windows) `winget install --id 9NKCCCWD3RZ0` | | 👍 |
-| WhatsApp | https://www.whatsapp.com<br> (Mac) App Store<br> (Windows) `winget install --id WhatsApp.WhatsApp` | 👍 | 👍 |
+| WhatsApp | https://www.whatsapp.com<br> (Mac) App Store<br> (Windows) `winget install --id 9NKSQGP7F2NH` | 👍 | 👍 |
 
 ## Development
 | Software | Info | Mac | Windows |
