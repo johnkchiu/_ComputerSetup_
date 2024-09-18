@@ -1,4 +1,5 @@
 # Setup for Windows
+
 ## Windows Apps
 
 ### Windows PowerShell
@@ -18,7 +19,12 @@ code $PROFILE
 winget install --id Git.Git
 ```
 
-## Ubuntu on Windows Subsystem for Linux (WSL 2)
+### Android Studio
+```bash
+winget install --id=Google.AndroidStudio
+```
+
+## Ubuntu on Windows Subsystem for Linux (WSL2)
 
 ### Ubuntu Install
 # Install via Windows PowerShell as Admin
