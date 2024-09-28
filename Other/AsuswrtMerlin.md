@@ -42,9 +42,8 @@ https://github.com/RMerl/asuswrt-merlin
 
 ## Addition Setup
 ### amtm
-1. . [amtm](https://diversion.ch/amtm.html)
-    * Create swap file
-    * Install Entware
+* Create swap file
+* Install Entware
 
 ### Duck DNS
 * Create `/jffs/scripts/ddns-start` using sample [Duck DNS Sample script](https://github.com/RMerl/asuswrt-merlin.ng/wiki/DDNS-Sample-Scripts#duck-dns)
