@@ -29,25 +29,26 @@
 | Android Studio                       | https://developer.android.com/studio<br> (Mac) `brew install android-studio`<br> (Windows) `winget install --id Google.AndroidStudio`                                | 👍  | 👍      |
 | DBeaver                              | https://dbeaver.io<br> (Mac) `brew install java dbeaver-community`                                                                                                   | 👍  | 👍      |
 | DevDocs                              | https://devdocs.io<br> (Mac) `brew install devdocs`                                                                                                                  | 👍  | 👍      |
-| Docker                               | https://www.docker.com<br> (Mac) [See instructions](Mac.md#docker)                                                                                              | 👍  | 👍      |
-| IntelliJ IDEA                        | https://www.jetbrains.com/idea<br> [See additional setup for IntelliJ IDEA](IntelliJIDEA.md)                                                                    | 👍  | 👍      |
-| iTerm2                               | http://www.iterm2.com<br> (Mac) [See instructions](Mac.md##iterm2)<br> - iterm2-color-schemes (http://iterm2colorschemes.com)                                   | 👍  |         |
+| Docker                               | https://www.docker.com<br> (Mac) [See instructions](Mac.md#docker)                                                                                                   | 👍  | 👍      |
+| IntelliJ IDEA                        | https://www.jetbrains.com/idea<br> [See additional setup for IntelliJ IDEA](IntelliJIDEA.md)                                                                         | 👍  | 👍      |
+| iTerm2                               | http://www.iterm2.com<br> (Mac) [See instructions](Mac.md##iterm2)<br> - iterm2-color-schemes (http://iterm2colorschemes.com)                                        | 👍  |         |
 | Nerd Font (Caskaydia Cove Nerd Font) | https://www.nerdfonts.com/font-downloads<br> (Mac) `brew tap homebrew/cask-fonts && brew install font-caskaydia-cove-nerd-font`<br> (Windows) Download and install.  | 👍  | 👍      |
 | P4Merge                              | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br> (Mac) `brew install p4v`                                                               | 👍  | 👍      |
 | SourceTree                           | http://www.sourcetreeapp.com<br> (Mac) `brew install sourcetree`<br> (Windows) `winget install --id Atlassian.Sourcetree`                                            | 👍  | 👍      |
 | Visual Studio Code                   | https://code.visualstudio.com<br> (Mac) `brew install visual-studio-code`<br> (Windows) `winget install --id Microsoft.VisualStudioCode`<br> (Note: Sync via Github) | 👍  | 👍      |
 
 # Computer
+* [Windows](Computer/Windows.md)
+* [Mac](Computer/Mac.md)
+* [Chromebook](Computer/Chromebook.md)
 
-* [[Windows]]
-* [[Mac]]
-* [[Chromebook]]
 # Development
+* [IntelliJIDEA](Development/IntelliJIDEA.md)
+* [Next.js](Development/Next.js.md)
 
-* [[IntelliJIDEA]]
-* [[Next.js]]
 # Gaming
-* [[Gaming]]
+* [Gaming](Gaming/Gaming.md)
+
 #  Other
-* [[AsuswrtMerlin]]
-* [[Raspberry]]
+* [AsuswrtMerlin](Other/AsuswrtMerlin.md)
+* [Raspberry](Other/Raspberry.md)
