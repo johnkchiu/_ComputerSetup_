@@ -1,6 +1,6 @@
 # Windows
 
-### VR(
+### VR
 * [Battlet.net](https://us.shop.battle.net/en-us)
 * [Oculus Quest](https://www.oculus.com/setup/)
 * [Riot Games](https://www.riotgames.com/en)

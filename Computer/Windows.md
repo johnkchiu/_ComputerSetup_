@@ -26,9 +26,9 @@ winget install --id=Google.AndroidStudio
 
 ## Ubuntu on Windows Subsystem for Linux (WSL2)
 
-### Ubuntu Install
-# Install via Windows PowerShell as Admin
+### Ubuntu install
 ```bash
+# Install via Windows PowerShell as Admin
 wsl --install
 # Needs to restart
 ```
@@ -111,3 +111,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt-get install android-tools-adb
 ```
 
+### aws-cli
+```bash
+#  install aws-cli
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+```
