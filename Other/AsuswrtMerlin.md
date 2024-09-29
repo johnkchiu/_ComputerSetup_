@@ -41,7 +41,7 @@ https://github.com/RMerl/asuswrt-merlin
 			* Simpler share naming (without the disk name) => Yes
 
 ## Addition Setup
-### amtm
+### [amtm](https://diversion.ch/amtm.html)
 * Create swap file
 * Install Entware
 
