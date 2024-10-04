@@ -1,5 +1,4 @@
 ##  Getting Started
-
 ```bash
 # create next.js project
 # use defaults for other settings
@@ -9,12 +8,21 @@
 # init shadcn/ui
 > npx shadcn@latest init
 
-# init sst.dev
-> npx sst@latest init
+# start dev
+> npm run dev
 ```
 
-## Dev
+### SST
 ```bash
-# start dev
-npm run dev
-```
+# init sst.dev
+> npx sst@latest init
+``` 
+	
+* Follow instructions to [Setup AWS](https://sst.dev/docs/aws-accounts).
+	* Create a management account
+	* Create dev and prod accounts
+	* Setup the AWS CLI
+	* Configure SST
+
+
+
