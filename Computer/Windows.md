@@ -24,6 +24,15 @@ winget install --id Git.Git
 winget install --id=Google.AndroidStudio
 ```
 
+## Android
+
+## Google Play Games on PC Developer Emulator 
+```bash
+# Install Google Play Games (Developer Emulator Beta) via https://developer.android.com/games/playgames/emulator
+# Install Google Platform Tools (adb)
+winget install Google.PlatformTools 
+```
+
 ## Ubuntu on Windows Subsystem for Linux (WSL2)
 
 ### Ubuntu install
