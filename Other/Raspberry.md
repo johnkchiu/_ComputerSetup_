@@ -1,4 +1,4 @@
-# Setup for Raspberry P
+# Setup for Raspberry Pi
 
 ## fish shell
 ```shell
@@ -8,6 +8,8 @@ chsh -s $(which fish)
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 sudo apt-get install fzf
 fisher install jethrokuan/fzf
+# install exa
+brew install exa
 # install starship.rs
 curl -sS https://starship.rs/install.sh | sh
 # add "starship init fish | source" to ~/.config/fish/config.fish
