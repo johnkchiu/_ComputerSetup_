@@ -16,9 +16,9 @@
 | Karabiner                   | https://pqrs.org/osx/karabiner<br> (Mac) `brew install karabiner-elements`                                               | 👍  |         |
 | KeePassXC                   | https://keepassxc.org<br> (Mac) `brew install keepassxc`<br> (Windows) `winget install --id KeePassXCTeam.KeePassXC`     | 👍  | 👍      |
 | LICEcap                     | http://www.cockos.com/licecap<br> (Mac) `brew install licecap`                                                           | 👍  | 👍      |
-| Magnet                      | http://magnet.crowdcafe.com<br> (Mac) App Store                                                                          | 👍  |         |
 | Microsoft PowerToys         | https://docs.microsoft.com/en-us/windows/powertoys/<br> (Windows) `winget install --id XP89DCGQ3K6VLD`                   |     | 👍      |
 | Notion                      | https://notion.com<br> (Mac) `brew install notion`<br> (Windows) `winget install --id Notion.Notion`                     | 👍  | 👍      |
+| Rectangle                   | https://rectangleapp.com<br> (Mac) `brew install retangle`                                                               | 👍  |         |
 | Slack                       | https://slack.com<br> (Mac/Windows) App Store                                                                            | 👍  | 👍      |
 | SumatraPDF                  | https://www.sumatrapdfreader.org/<br> (Windows) `winget install --id SumatraPDF.SumatraPDF`                              |     | 👍      |
 | Wally - Unsplash Wallpapers | Windows App Store<br> (Windows) `winget install --id 9NKCCCWD3RZ0`                                                       |     | 👍      |
@@ -31,8 +31,8 @@
 | DevDocs                              | https://devdocs.io<br> (Mac) `brew install devdocs`                                                                                                                  | 👍  | 👍      |
 | Docker                               | https://www.docker.com<br> (Mac) [See instructions](Mac.md#docker)                                                                                                   | 👍  | 👍      |
 | IntelliJ IDEA                        | https://www.jetbrains.com/idea<br> [See additional setup for IntelliJ IDEA](IntelliJIDEA.md)                                                                         | 👍  | 👍      |
-| iTerm2                               | http://www.iterm2.com<br> (Mac) [See instructions](Mac.md##iterm2)<br> - iterm2-color-schemes (http://iterm2colorschemes.com)                                        | 👍  |         |
-| Nerd Font (Caskaydia Cove Nerd Font) | https://www.nerdfonts.com/font-downloads<br> (Mac) `brew tap homebrew/cask-fonts && brew install font-caskaydia-cove-nerd-font`<br> (Windows) Download and install.  | 👍  | 👍      |
+| iTerm2                               | http://www.iterm2.com<br> (Mac) [See instructions](Computer/Mac.md##iterm2)<br> - iterm2-color-schemes (http://iterm2colorschemes.com)                               | 👍  |         |
+| Nerd Font (Caskaydia Cove Nerd Font) | https://www.nerdfonts.com/font-downloads<br> (Mac) `brew install font-caskaydia-cove-nerd-font`<br> (Windows) Download and install.                                  | 👍  | 👍      |
 | P4Merge                              | https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge<br> (Mac) `brew install p4v`                                                               | 👍  | 👍      |
 | SourceTree                           | http://www.sourcetreeapp.com<br> (Mac) `brew install sourcetree`<br> (Windows) `winget install --id Atlassian.Sourcetree`                                            | 👍  | 👍      |
 | Visual Studio Code                   | https://code.visualstudio.com<br> (Mac) `brew install visual-studio-code`<br> (Windows) `winget install --id Microsoft.VisualStudioCode`<br> (Note: Sync via Github) | 👍  | 👍      |

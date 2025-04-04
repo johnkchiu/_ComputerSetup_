@@ -25,7 +25,7 @@ ln -s $etc/docker-machine.zsh-completion /usr/local/share/zsh/site-functions/_do
 ln -s $etc/docker-compose.zsh-completion /usr/local/share/zsh/site-functions/_docker-compose
 ```
 
-### fish + fzf + exa + starship
+### fish + fzf + eza + starship
 ```bash
 brew install fish
 sudo vi /etc/shells
@@ -35,8 +35,8 @@ chsh -s /usr/local/bin/fish
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 brew install fzf
 fisher install jethrokuan/fzf
-# install exa
-brew install exa
+# install eza
+brew install eza
 # install starship
 curl -sS https://starship.rs/install.sh | sh
 ```
@@ -57,7 +57,7 @@ brew install iterm2
 # use preferences directory
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string ~/.iterm2
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
-# after launch turn on Preferences -> General -> Preferences -> Save changes to folder when iTerm2 quits.
+# after launch turn on Preferences -> General -> Settings -> Save changes When Quitting.
 ```
 
 ### java / scala / sbt / gradle / groovy / kotlin
