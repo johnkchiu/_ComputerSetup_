@@ -92,7 +92,7 @@ sudo apt install git
 ### node.js / npm / nvm
 ```bash
 # install nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 # (for fish)
 fisher install FabioAntunes/fish-nvm
 fisher install edc/bass
