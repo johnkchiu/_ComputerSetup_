@@ -133,3 +133,12 @@ polkit.addRule(function(action, subject) {
 });
 EOF
 ```
+
+### Enable 
+1. Install Chrome Extension - [GNOME Shell integration](https://chromewebstore.google.com/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep).
+1. Install the GNOME Shell Host Connector
+    ```
+    # On Ubuntu 23.04 or newer
+    sudo apt install gnome-browser-connector
+    ```
+1. Enable Gnome Extension - [Allow Locked Remote Desktop](https://extensions.gnome.org/extension/4338/allow-locked-remote-desktop/)
