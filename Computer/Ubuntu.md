@@ -136,7 +136,7 @@ polkit.addRule(function(action, subject) {
 EOF
 ```
 
-### Enable 
+### Enable "Allow Locked Remote Desktop" Gnome Extension
 1. Install Chrome Extension - [GNOME Shell integration](https://chromewebstore.google.com/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep).
 1. Install the GNOME Shell Host Connector
     ```
@@ -145,3 +145,11 @@ EOF
     ```
 1. Enable Gnome Extension - [Allow Locked Remote Desktop](https://extensions.gnome.org/extension/4338/allow-locked-remote-desktop/)
 1. Open https://extensions.gnome.org/local/ to see installed Gnome Extensions.
+
+
+### Enable ssh server
+```bash
+# install openssh-server
+sudo apt install openssh-server
+# Enable via Settings -> System -> Secure Shell
+```
