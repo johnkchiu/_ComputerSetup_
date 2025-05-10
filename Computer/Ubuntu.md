@@ -93,8 +93,10 @@ sudo mount -a
 
 ### openvpn
 ```shell
+# copy ovpn file to /etc/openvpn/client
+sudo cp [*.vpn] /etc/openvpn/client
 # start
-sudo openvpn --config [*.ovpn] --daemon
+sudo openvpn --config /etc/openvpn/client/[*.ovpn] --daemon
 # shutdown
 sudo killall -SIGINT openvpn
 ```
