@@ -142,3 +142,4 @@ EOF
     sudo apt install gnome-browser-connector
     ```
 1. Enable Gnome Extension - [Allow Locked Remote Desktop](https://extensions.gnome.org/extension/4338/allow-locked-remote-desktop/)
+1. Open https://extensions.gnome.org/local/ to see installed Gnome Extensions.
