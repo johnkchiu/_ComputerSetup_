@@ -66,6 +66,8 @@ exit
 # stop db container
 docker compose down
 
+# update docker-compose.yml (complete), start quacd & guacamole
+docker compose up -d
 ```
 
 `docker-compose.yml` (partial with DB only)
