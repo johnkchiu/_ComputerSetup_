@@ -37,6 +37,30 @@ wget -O installer "https://github.com/fosrl/pangolin/releases/download/1.4.0/ins
 docker run -d --restart unless-stopped fosrl/newt --id <id> --secret <secret> --endpoint <endpoint>
 ```
 
+#### Update Pangolin
+See https://docs.pangolin.net/self-host/how-to-update for more info.
+```bash
+# Shutdown
+sudo docker compose down
+
+# Backup
+sudo cp -a config config.backup.`date "+%Y.%m.%d"`
+cp docker-compose.yml docker-compose.yml.backup.`date "+%Y.%m.%d"`
+
+# Edit your docker-compose.yml
+wget https://raw.githubusercontent.com/fosrl/pangolin/refs/heads/main/docker-compose.example.yml
+diff docker-compose.yml docker-compose.example.yml
+# Increase version #'s by minor version (e.g. X.X)
+sudo docker compose pull
+sudo docker compose up -d
+
+# Verify logs
+sudo docker compose logs -f
+
+# Clean up images
+sudo docker image prune -a
+```
+
 ### Portainer (via Docker)
 ```bash
 # create volume
